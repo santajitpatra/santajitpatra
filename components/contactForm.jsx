@@ -165,7 +165,7 @@ const contactForm = () => {
                     <input
                       type="text"
                       placeholder="example example"
-                      className="block w-full px-5 py-3 mt-2 border rounded-md  focus:ring-opacity-40 focus:outline-none focus:ring"
+                      className="block w-full px-5 py-3 mt-2 border rounded-md  focus:ring-opacity-40 focus:outline-none focus:ring text-black"
                     />
                   </div>
                   <div className="flex-1 mt-6">
@@ -173,13 +173,13 @@ const contactForm = () => {
                     <input
                       type="email"
                       placeholder="example@example.com"
-                      className="block w-full px-5 py-3 mt-2 border rounded-md focus:ring-opacity-40 focus:outline-none focus:ring"
+                      className="block w-full px-5 py-3 mt-2 border rounded-md focus:ring-opacity-40 focus:outline-none focus:ring text-black"
                     />
                   </div>
                   <div className="w-full mt-6">
                     <label className="block mb-2 text-sm">Message</label>
                     <textarea
-                      className="block w-full h-32 px-5 py-3 mt-2 rounded-md md:h-48 focus:ring-opacity-40 focus:outline-none focus:ring"
+                      className="block w-full h-32 px-5 py-3 mt-2 rounded-md md:h-48 focus:ring-opacity-40 focus:outline-none focus:ring text-black"
                       placeholder="Message"
                       defaultValue={""}
                     />

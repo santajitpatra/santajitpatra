@@ -8,11 +8,10 @@ const CTA = () => {
         <div className="to flex items-center rounded-xl bg-gradient-to-l from-blue-500 to-fuchsia-500 px-8 text-white shadow-lg">
           <div className="my-10 lg:my-8 lg:w-1/2">
             <h2 className="text-2xl font-bold">
-            Let's take your business to the moon
+            Let's talk about business
             </h2>
             <p className="mt-4 text-lg">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Distinctio velit, expedita ullam saepe reiciendis nostrum.
+            We welcome your suggestions, queries and feedback through the contact form below. Your feedback and suggestion help us grow. Thank you!
             </p>
             <Link href="/contact">
             <button

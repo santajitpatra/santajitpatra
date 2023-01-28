@@ -17,14 +17,14 @@ const card = () => {
         <Image
           className="max-h-40 w-full object-cover"
           alt="featured image"
-          src="/img1.jpg"
+          src="/about.jpg"
           width={500}
           height={500}
         />
         <div className="w-full bg-white p-4">
-          <p className="text-md font-medium text-pink-500">Alfa</p>
+          <p className="text-md font-medium text-blue-500">Alpha</p>
           <p className="mb-2 text-xl font-medium text-gray-800">
-            Let Me Tell You Somethink About me
+          Let Me Tell You About us
           </p>
           <p className="text-md font-light text-gray-400">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse vel
@@ -44,14 +44,14 @@ const card = () => {
         <Image
           className="max-h-40 w-full object-cover"
           alt="featured image"
-          src="/img1.jpg"
+          src="/website.jpg"
           width={500}
           height={500}
         />
         <div className="w-full bg-white p-4">
-          <p className="text-md font-medium text-pink-500">Alfa</p>
+          <p className="text-md font-medium text-green-500">Beta</p>
           <p className="mb-2 text-xl font-medium text-gray-800">
-            Let Me Tell You Somethink About me
+          You Can Check Our Services
           </p>
           <p className="text-md font-light text-gray-400">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse vel
@@ -62,7 +62,7 @@ const card = () => {
             href="/about"
             className="mb-3 inline-flex h-12 w-full items-center justify-center px-6 font-medium tracking-wide shadow-md transition duration-200 focus:outline-none md:mr-4 md:mb-0 md:w-auto text-white hover:text-yellow-50 bg-gradient-to-r  from-pink-500 to-purple-500 hover:from-cyan-600 hover:to-blue-600 rounded-full"
           >
-            About Us{" "}
+            Our Services{" "}
           </Link>
           </div>
         </div>
@@ -71,14 +71,14 @@ const card = () => {
         <Image
           className="max-h-40 w-full object-cover"
           alt="featured image"
-          src="/img1.jpg"
+          src="/contact.jpg"
           width={500}
           height={500}
         />
         <div className="w-full bg-white p-4">
-          <p className="text-md font-medium text-pink-500">Alfa</p>
+          <p className="text-md font-medium text-pink-500">Gamma</p>
           <p className="mb-2 text-xl font-medium text-gray-800">
-            Let Me Tell You Somethink About me
+          Please Feel Free To Contact Us
           </p>
           <p className="text-md font-light text-gray-400">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse vel
@@ -89,7 +89,7 @@ const card = () => {
             href="/about"
             className="mb-3 inline-flex h-12 w-full items-center justify-center px-6 font-medium tracking-wide shadow-md transition duration-200 focus:outline-none md:mr-4 md:mb-0 md:w-auto text-white hover:text-yellow-50 bg-gradient-to-r  from-pink-500 to-purple-500 hover:from-cyan-600 hover:to-blue-600 rounded-full"
           >
-            About Us{" "}
+            Contact Us{" "}
           </Link>
           </div>
         </div>

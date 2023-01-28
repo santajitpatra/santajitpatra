@@ -2,7 +2,7 @@
 const getInTuch = () => {
   return (
     <div>
-      
+      g
     </div>
   )
 }
