@@ -11,8 +11,7 @@ const CTA = () => {
             Let's talk about business
             </h2>
             <p className="mt-4 text-lg">
-            We welcome your suggestions, queries and feedback through the contact form below. Your feedback and suggestion help us grow. Thank you!
-            </p>
+            "Let's talk about business and the opportunities for growth it presents. We believe in empowering businesses with expert web development and digital marketing solutions. We want to help you take your business to the next level, let's start the conversation today."            </p>
             <Link href="/contact">
             <button
               type="submit"

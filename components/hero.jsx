@@ -16,7 +16,7 @@ const hero = () => {
               <h2 className="mb-6 max-w-lg font-sans text-3xl font-bold leading-snug tracking-tight text-white sm:text-5xl sm:leading-snug">
                 Santajit's
                 <span className="my-1 inline-block rounded bg-white px-2 text-violet-600">
-                Portfolio
+                New
                 </span>
                 <span className="text-cyan-300">Website</span>
               </h2>

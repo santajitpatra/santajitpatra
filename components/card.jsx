@@ -6,7 +6,7 @@ const card = () => {
     <div>
       <section className="py-20">
         <h2 className="mb-12 text-center font-sans text-5xl font-bold text-white">
-          Recent Posts
+          Recent Added
         </h2>
         <div className="mx-auto grid max-w-screen-lg grid-cols-1 gap-5 p-5 sm:grid-cols-2 md:grid-cols-3 lg:gap-10">
           {/* <!-- ==================== Cards started  ====================  -->  */}
@@ -22,11 +22,11 @@ const card = () => {
             <div className="w-full bg-white p-4">
               <p className="text-md font-medium text-pink-500">Alpha</p>
               <p className="mb-2 text-xl font-medium text-gray-800">
-                Let Me Tell You About us
-              </p>
+            Discover Our Story: All About Us
+
+</p>
               <p className="text-md font-light text-gray-400">
-                "Expert web development and digital marketing solutions for
-                business success."
+              "Maximize Your Business Potential with Our Professional Web Development and Digital Marketing Expertise"
               </p>
               <div className="justify-center mt-4 flex flex-wrap items-center">
                 <Link

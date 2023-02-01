@@ -81,7 +81,7 @@ const contactForm = () => {
                 <div className="flex mt-4 -mx-1.5 ">
                   <a
                     className="mx-1.5 text-white transition-colors duration-300 transform hover:text-blue-500"
-                    href="#"
+                    href="https://twitter.com/SantajitPatra"
                   >
                     <svg
                       className="w-10 h-10 fill-current"
@@ -94,7 +94,7 @@ const contactForm = () => {
                   </a>
                   <a
                     className="mx-1.5 text-white transition-colors duration-300 transform hover:text-blue-500"
-                    href="#"
+                    href="https://www.linkedin.com/in/santajit-patra-9136651b4/"
                   >
                     <svg
                       className="w-8 h-8"
@@ -118,7 +118,7 @@ const contactForm = () => {
                   </a>
                   <a
                     className="mx-1.5 text-white transition-colors duration-300 transform hover:text-blue-500"
-                    href="#"
+                    href="https://www.facebook.com/Santajit-Patra-191090504774038"
                   >
                     <svg
                       className="w-8 h-8"
@@ -134,7 +134,7 @@ const contactForm = () => {
                   </a>
                   <a
                     className="mx-1.5 text-white transition-colors duration-300 transform hover:text-blue-500"
-                    href="#"
+                    href="https://www.instagram.com/santajitpatra/"
                   >
                     <svg
                       className="w-8 h-8"

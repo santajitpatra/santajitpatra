@@ -36,7 +36,7 @@ const index = () => {
             </div>
           </div>
         </div>
-        <span className="-mb-24"></span>
+        <span className="-mb-40 sm:-mb-36 md:-mb-24 xl:-mb-24"></span>
         <Footer />
       </div>
     </>

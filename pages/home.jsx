@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { Navbar, Hero, Footer, Card, CTA } from "../components";
+import { Navbar, Hero, Footer, Card, CTA, ContactForm, ServicesOffer } from "../components";
 
 const Home = () => {
   return (
@@ -16,7 +16,14 @@ const Home = () => {
         <Hero />
         <Card />
         <CTA />
-        <span className="h-16"></span>
+        <h2 className="mt-12 text-center font-sans text-5xl font-bold text-white">
+          Our Services
+        </h2>
+        <ServicesOffer />
+        <h2 className="text-center font-sans text-5xl font-bold text-white">
+          Contact Us
+        </h2>
+        <ContactForm />
         <Footer />
       </div>
     </>

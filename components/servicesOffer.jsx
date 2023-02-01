@@ -13,7 +13,7 @@ const servicesOffer = () => {
                 ACHIEVE YOUR GOALS
               </h2>
             </div>
-            <div className="relative w-72 xl:w-96 h-56 p-4 overflow-hidden bg-white shadow-lg rounded-2xl px-4 pt-14 pb-8">
+            <div className="relative w-72 xl:w-96 h-56 p-4 overflow-hidden bg-white shadow-lg rounded-2xl px-4 pt-14 pb-8 hover:translate-y-2">
               <Image
                 alt="moto"
                 src="/santajit-patra-11.jpeg"
@@ -29,7 +29,7 @@ const servicesOffer = () => {
                 Professional website creation with personalized design and coding.                </p>
               </div>
             </div>
-            <div className="relative w-72 xl:w-96 h-56 p-4 overflow-hidden bg-white shadow-lg rounded-2xl px-4 pt-14 pb-8">
+            <div className="relative w-72 xl:w-96 h-56 p-4 overflow-hidden bg-white shadow-lg rounded-2xl px-4 pt-14 pb-8 hover:translate-y-2">
               <Image
                 alt="moto"
                 src="/santajit-patra-11.jpeg"
@@ -45,7 +45,7 @@ const servicesOffer = () => {
                 Boost your online presence and drive sales through digital advertising.                </p>
               </div>
             </div>
-            <div className="relative w-72 xl:w-96 h-56 p-4 overflow-hidden bg-white shadow-lg rounded-2xl px-4 pt-14 pb-8">
+            <div className="relative w-72 xl:w-96 h-56 p-4 overflow-hidden bg-white shadow-lg rounded-2xl px-4 pt-14 pb-8 hover:translate-y-2">
               <Image
                 alt="moto"
                 src="/santajit-patra-11.jpeg"
@@ -61,7 +61,7 @@ const servicesOffer = () => {
                 Eye-catching and effective graphic design solutions for your brand.                </p>
               </div>
             </div>
-            <div className="relative w-72 xl:w-96 h-56 p-4 overflow-hidden bg-white shadow-lg rounded-2xl px-4 pt-14 pb-8">
+            <div className="relative w-72 xl:w-96 h-56 p-4 overflow-hidden bg-white shadow-lg rounded-2xl px-4 pt-14 pb-8 hover:translate-y-2">
               <Image
                 alt="moto"
                 src="/santajit-patra-11.jpeg"
@@ -77,7 +77,7 @@ const servicesOffer = () => {
                 Streamline your workload with professional and efficient virtual assistance.                </p>
               </div>
             </div>
-            <div className="relative w-72 xl:w-96 h-56 p-4 overflow-hidden bg-white shadow-lg rounded-2xl px-4 pt-14 pb-8">
+            <div className="relative w-72 xl:w-96 h-56 p-4 overflow-hidden bg-white shadow-lg rounded-2xl px-4 pt-14 pb-8 hover:translate-y-2">
               <Image
                 alt="moto"
                 src="/santajit-patra-11.jpeg"
