@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { Navbar, Footer,  Map, ContactForm} from "../components";
+import { Navbar,Header, Footer,  Map, ContactForm} from "../components";
 // import Link from "next/link";
 
 const contact = () => {
@@ -11,8 +11,9 @@ const contact = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="flex min-h-screen w-screen flex-col bg-gradient-to-tr  from-blue-500 to-purple-500">
+      <div className="flex min-h-screen w-screen flex-col text-white bg-gradient-to-tr  from-blue-500 to-purple-500">
         <Navbar />
+        <Header title="Contact"/>
         <ContactForm />
         <Map />
 

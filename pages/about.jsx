@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { Navbar,Footer,} from "../components";
+import { Navbar,Header, Footer,} from "../components";
 import Link from "next/link";
 
 const about = () => {
@@ -12,10 +12,11 @@ const about = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className="flex min-h-screen w-screen flex-col bg-gradient-to-tr  from-blue-500 to-purple-500">
+      <div className="flex min-h-screen w-screen flex-col text-white bg-gradient-to-tr  from-blue-500 to-purple-500">
         <Navbar />
-        <>
-  <div className="flex min-h-screen w-screen">
+        <Header title="About" />
+      
+  <div className="flex min-h-screen w-screen mt-10">
     <div className="relative my-auto mx-auto flex flex-col px-4 sm:max-w-xl md:max-w-screen-xl md:flex-row">
       {/* Left Column */}
       <div className="mx-auto flex w-full max-w-xl lg:max-w-screen-xl">
@@ -29,11 +30,7 @@ const about = () => {
                 <span className="text-cyan-300">Me</span>
               </h2>
               <p className="text-base text-gray-200">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-                in ipsam, ea incidunt pariatur tempora perferendis esse velit
-                aspernatur mollitia illum consectetur tempore asperiores facilis
-                ratione voluptates non possimus dolores!
-              </p>
+              Welcome to our web development and digital marketing agency! We are a team of experts who are passionate about helping businesses succeed online. Our mission is to create visually stunning and user-friendly websites while utilizing effective digital marketing strategies that drive results. We specialize in web design and development, search engine optimization, social media marketing, and more. Our team stays up to date on the latest industry trends to ensure that our clients are always ahead of the curve. Let us help you achieve your online goals, contact us today.              </p>
           </div>
         </div>
       </div>
@@ -77,7 +74,7 @@ const about = () => {
       {/* /Right Column */}
     </div>
   </div>
-</>
+
 
 
         <Footer />

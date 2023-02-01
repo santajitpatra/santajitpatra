@@ -74,7 +74,7 @@ const navbar = () => {
             </li>
             <li className="xl:mr-12 md:mr-6">
               <Link href="/contact">
-                <button className="rounded-full border-2 border-white xl:px-4 xl:py-2 md:px-2 md:py-1 text-white transition-colors hover:bg-purple-700 hover:text-white">
+                <button className="rounded-full border-2 border-white xl:px-4 xl:py-2 md:px-2 md:py-1 text-white transition-colors hover:bg-white hover:text-blue-500">
                   Contact Us
                 </button>
               </Link>

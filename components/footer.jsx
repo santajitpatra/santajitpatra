@@ -4,7 +4,25 @@ import Image from "next/image";
 const footer = () => {
   return (
     <>
-      <footer className="bg-gradient-to-tl  from-cyan-500 to-blue-700 text-white">
+      <div className="container mx-auto px-6 mb-12 md:px-12 xl:px-32">
+        <div className="text-center">
+          <div
+            className="block rounded-lg px-6 py-12 md:py-12 md:px-12"
+            style={{
+              marginBottom: "-130px",
+              background: "hsla(360, 100%, 100%, 0.25)",
+              backdropFilter: "blur(30px)",
+              
+            }}
+          >
+            <h1 className="text-5xl md:text-6xl xl:text-7xl font-bold tracking-tight text-white">
+              Get In Tuch With Us
+            </h1>
+          </div>
+        </div>
+      </div>
+
+      <footer className="pt-20 bg-gradient-to-tl  from-cyan-500 to-blue-700 text-white">
         <div className="mx-auto grid max-w-screen-xl gap-y-8 gap-x-12 px-4 py-10 md:grid-cols-2 xl:grid-cols-4 xl:px-10">
           <div className="max-w-sm">
             <div className="mb-6 flex h-12 items-center space-x-2">
@@ -13,8 +31,8 @@ const footer = () => {
               </span>
             </div>
             <div className="text-purple-100">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis ad
-              a officia ea expedita!
+              "Expert web development and digital marketing solutions for
+              business success."
             </div>
           </div>
           <div className="">
@@ -65,7 +83,7 @@ const footer = () => {
                 <li>
                   <Link
                     className="text-purple-100 hover:text-blue-600 hover:underline"
-                    href="contact"
+                    href="terms"
                   >
                     Terms & Conditions
                   </Link>
@@ -73,7 +91,7 @@ const footer = () => {
                 <li>
                   <Link
                     className="text-purple-100 hover:text-blue-600 hover:underline"
-                    href="contact"
+                    href="privacy"
                   >
                     Privacy Policy
                   </Link>
@@ -81,7 +99,7 @@ const footer = () => {
                 <li>
                   <Link
                     className="text-purple-100 hover:text-blue-600 hover:underline"
-                    href="contact"
+                    href="disclaimer"
                   >
                     Disclaimer
                   </Link>
@@ -89,9 +107,9 @@ const footer = () => {
                 <li>
                   <Link
                     className="text-purple-100 hover:text-blue-600 hover:underline"
-                    href="contact"
+                    href="sitemap"
                   >
-                    Contact
+                    sitemap
                   </Link>
                 </li>
               </ul>

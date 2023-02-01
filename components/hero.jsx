@@ -21,10 +21,7 @@ const hero = () => {
                 <span className="text-cyan-300">Website</span>
               </h2>
               <p className="text-base text-gray-200">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-                in ipsam, ea incidunt pariatur tempora perferendis esse velit
-                aspernatur mollitia illum consectetur tempore asperiores facilis
-                ratione voluptates non possimus dolores!
+              "Elevate your online presence with our expert web development services. From stunning designs to custom functionality, we'll help you stand out in a crowded digital world. Let our team help you achieve your online goals and drive results with a website that engages and converts."
               </p>
             </div>
             <div className="flex flex-col items-center md:flex-row">

@@ -2,12 +2,7 @@
 const contactForm = () => {
   return (
     <div>
-      <section className="text-white">
-        <div className="pb-10">
-          <h1 className="my-12 text-center font-sans text-5xl font-bold text-white">
-            Contact
-          </h1>
-        </div>
+      <section className="text-white mt-20">
         <div className="container flex flex-col h-full px-6 pb-52 mx-auto">
           <div className="flex-1 lg:flex lg:items-center lg:-mx-6">
             <div className="lg:w-1/2 lg:mx-6">
