@@ -8,8 +8,9 @@ const header = (props) => {
           className="relative overflow-hidden bg-no-repeat bg-cover"
           style={{
             backgroundPosition: "50%",
-            backgroundImage: 'url("/services.jpg")',
+            backgroundImage: `${props.bg}`,
             height: 500,
+            // backgroundImage: 'url("./about.jpg")',
           }}
         />
         <div className="container mx-auto px-6 md:px-12 xl:px-32">

@@ -1,4 +1,3 @@
-
 const contactForm = () => {
   return (
     <div>
@@ -72,7 +71,7 @@ const contactForm = () => {
                     />
                   </svg>
                   <span className="mx-2 text-white truncate w-72">
-                  business.santajitpatra@gmail.com
+                    business.santajitpatra@gmail.com
                   </span>
                 </p>
               </div>
@@ -154,10 +153,16 @@ const contactForm = () => {
             <div className="mt-8 lg:w-1/2 lg:mx-6 ">
               <div className="w-full px-8 py-10 mx-auto overflow-hidden shadow-2xl rounded-xl lg:max-w-xl bg-gradient-to-tl  from-cyan-500 to-blue-700">
                 <h1 className="text-2xl font-medium">Contact form</h1>
-                <form className="mt-6">
+                <form
+                  className="mt-6"
+                  action="https://formspree.io/f/mbjeolqk"
+                  method="POST"
+                >
                   <div className="flex-1">
                     <label className="block mb-2 text-sm">Full Name</label>
                     <input
+                      id="username"
+                      name="username"
                       type="text"
                       placeholder="example example"
                       className="block w-full px-5 py-3 mt-2 border rounded-md  focus:ring-opacity-40 focus:outline-none focus:ring text-black"
@@ -166,6 +171,8 @@ const contactForm = () => {
                   <div className="flex-1 mt-6">
                     <label className="block mb-2 text-sm">Email address</label>
                     <input
+                      id="email"
+                      name="email"
                       type="email"
                       placeholder="example@example.com"
                       className="block w-full px-5 py-3 mt-2 border rounded-md focus:ring-opacity-40 focus:outline-none focus:ring text-black"
@@ -177,6 +184,8 @@ const contactForm = () => {
                       className="block w-full h-32 px-5 py-3 mt-2 rounded-md md:h-48 focus:ring-opacity-40 focus:outline-none focus:ring text-black"
                       placeholder="Message"
                       defaultValue={""}
+                      id="message"
+                      name="message"
                     />
                   </div>
                   <button className="w-full px-6 py-3 mt-6 text-sm font-medium tracking-wide capitalize transition-colors duration-300 transform  text-white hover:text-yellow-50 bg-gradient-to-r  from-pink-500 to-purple-500 hover:from-cyan-600 hover:to-blue-600 rounded-full">
