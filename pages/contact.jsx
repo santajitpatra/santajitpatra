@@ -13,10 +13,9 @@ const contact = () => {
       </Head>
       <div className="flex min-h-screen w-screen flex-col text-white bg-gradient-to-tr  from-blue-500 to-purple-500">
         <Navbar />
-        <Header title="Contact"/>
+        <Header title="Contact" bg='url("./contact.jpg")' />
         <ContactForm />
         <Map />
-
       <Footer />
       </div>
     </>

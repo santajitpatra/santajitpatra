@@ -1,6 +1,6 @@
 import Head from "next/head";
 import { Navbar,Header, Footer,} from "../components";
-import Link from "next/link";
+// import Link from "next/link";
 
 const about = () => {
   return (
@@ -14,7 +14,7 @@ const about = () => {
 
       <div className="flex min-h-screen w-screen flex-col text-white bg-gradient-to-tr  from-blue-500 to-purple-500">
         <Navbar />
-        <Header title="About" />
+        <Header title="About" bg='url("./about.jpg")'/>
       
   <div className="flex min-h-screen w-screen mt-10">
     <div className="relative my-auto mx-auto flex flex-col px-4 sm:max-w-xl md:max-w-screen-xl md:flex-row">
@@ -30,7 +30,7 @@ const about = () => {
                 <span className="text-cyan-300">Me</span>
               </h2>
               <p className="text-base text-gray-200">
-              Welcome to our web development and digital marketing agency! We are a team of experts who are passionate about helping businesses succeed online. Our mission is to create visually stunning and user-friendly websites while utilizing effective digital marketing strategies that drive results. We specialize in web design and development, search engine optimization, social media marketing, and more. Our team stays up to date on the latest industry trends to ensure that our clients are always ahead of the curve. Let us help you achieve your online goals, contact us today.              </p>
+              Welcome to our web development and digital marketing team! We are a team of experts who are passionate about helping businesses succeed online. Our mission is to create visually stunning and user-friendly websites while utilizing effective digital marketing strategies that drive results. We specialize in web design and development, search engine optimization, social media marketing, and more. Our team stays up to date on the latest industry trends to ensure that our clients are always ahead of the curve. Let us help you achieve your online goals, contact us today.              </p>
           </div>
         </div>
       </div>
@@ -42,7 +42,7 @@ const about = () => {
           <div className="overflow-hidden rounded-xl bg-yellow-400">
             <img
               className="h-full w-full object-cover"
-              src="https://images.unsplash.com/photo-1544376798-89aa6b82c6cd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+              src="./abouts.jpg"
               alt=""
             />
           </div>
@@ -51,21 +51,21 @@ const about = () => {
           <div className="h-40 overflow-hidden rounded-xl bg-green-600/60">
             <img
               className="mx-auto h-full w-full object-cover"
-              src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+              src="./services.jpg"
               alt=""
             />
           </div>
           <div className="h-40 overflow-hidden rounded-xl bg-pink-600/60">
             <img
               className="mx-auto h-full w-full object-cover"
-              src="https://images.unsplash.com/photo-1511884642898-4c92249e20b6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+              src="./aboutwork.jpg"
               alt=""
             />
           </div>
           <div className="h-40 overflow-hidden rounded-xl bg-blue-600/60">
             <img
               className="mx-auto h-full w-full object-cover"
-              src="https://images.unsplash.com/photo-1434725039720-aaad6dd32dfe?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1342&q=80"
+              src="./work.jpg"
               alt=""
             />
           </div>

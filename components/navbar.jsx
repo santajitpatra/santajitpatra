@@ -60,21 +60,21 @@ const navbar = () => {
           className="flex max-h-0 w-full flex-col items-center justify-between overflow-hidden transition-all peer-checked:mt-8 peer-checked:max-h-56 md:ml-24 md:max-h-full md:flex-row md:items-start"
         >
           <ul className="flex flex-col items-center space-y-2 md:ml-auto md:flex-row md:space-y-0">
-            <li className="xl:mr-12 md:mr-6">
+            <li className="xl:mr-12 md:mr-6 hover:text-cyan-300">
               <Link href="/home">Home</Link>
             </li>
-            <li className="xl:mr-12 md:mr-6">
+            <li className="xl:mr-12 md:mr-6 hover:text-cyan-300">
               <Link href="/about">About</Link>
             </li>
-            <li className="xl:mr-12 md:mr-6">
+            <li className="xl:mr-12 md:mr-6 hover:text-cyan-300">
               <Link href="/blog">Blog</Link>
             </li>
-            <li className="xl:mr-12 md:mr-6">
+            <li className="xl:mr-12 md:mr-6 hover:text-cyan-300">
               <Link href="/services">Services</Link>
             </li>
-            <li className="xl:mr-12 md:mr-6">
+            <li className="xl:mr-12 md:mr-6 hover:text-cyan-300">
               <Link href="/contact">
-                <button className="rounded-full border-2 border-white px-3 py-1 xl:px-4 text-white transition-colors hover:bg-white hover:text-blue-500">
+                <button className="rounded-full border-2 border-white px-3 py-1 xl:px-4 text-white transition-colors hover:bg-white hover:text-cyan-500">
                   Contact
                 </button>
               </Link>

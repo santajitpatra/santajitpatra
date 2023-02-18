@@ -17,7 +17,7 @@ const services = () => {
 
       <section className="flex min-h-screen w-screen flex-col text-white bg-gradient-to-tr  from-blue-500 to-purple-500">
         <Navbar />
-        <Header title="Services"/>
+        <Header title="Services" bg='url("./services.jpg")'/>
         {/* <!-- ==================== gggg  ====================  -->  */}
 
         <ServicesOffer />

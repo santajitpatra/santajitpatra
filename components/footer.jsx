@@ -65,7 +65,7 @@ const footer = () => {
               <ul className="space-y-3">
                 <li>
                   <Link
-                    className="text-purple-100 hover:text-blue-600"
+                    className="text-purple-100 hover:text-cyan-300"
                     href="/about"
                   >
                     About
@@ -73,7 +73,7 @@ const footer = () => {
                 </li>
                 <li>
                   <Link
-                    className="text-purple-100 hover:text-blue-600"
+                    className="text-purple-100 hover:text-cyan-300"
                     href="/blog"
                   >
                     Blog
@@ -81,7 +81,7 @@ const footer = () => {
                 </li>
                 <li>
                   <Link
-                    className="text-purple-100 hover:text-blue-600"
+                    className="text-purple-100 hover:text-cyan-300"
                     href="services"
                   >
                     Services
@@ -89,7 +89,7 @@ const footer = () => {
                 </li>
                 <li>
                   <Link
-                    className="text-purple-100 hover:text-blue-600"
+                    className="text-purple-100 hover:text-cyan-300"
                     href="contact"
                   >
                     Contact
@@ -104,7 +104,7 @@ const footer = () => {
               <ul className="space-y-3">
                 <li>
                   <Link
-                    className="text-purple-100 hover:text-blue-600"
+                    className="text-purple-100 hover:text-cyan-300"
                     href="terms"
                   >
                     Terms & Conditions
@@ -112,7 +112,7 @@ const footer = () => {
                 </li>
                 <li>
                   <Link
-                    className="text-purple-100 hover:text-blue-600"
+                    className="text-purple-100 hover:text-cyan-300"
                     href="privacy"
                   >
                     Privacy Policy
@@ -120,7 +120,7 @@ const footer = () => {
                 </li>
                 <li>
                   <Link
-                    className="text-purple-100 hover:text-blue-600"
+                    className="text-purple-100 hover:text-cyan-300"
                     href="disclaimer"
                   >
                     Disclaimer
@@ -128,7 +128,7 @@ const footer = () => {
                 </li>
                 <li>
                   <Link
-                    className="text-purple-100 hover:text-blue-600"
+                    className="text-purple-100 hover:text-cyan-300"
                     href="sitemap"
                   >
                     sitemap
@@ -169,7 +169,7 @@ const footer = () => {
             <div className="flex">
               <a
                 href="https://www.facebook.com/Santajit-Patra-191090504774038"
-                className="mx-2  transition-colors duration-300 hover:text-blue-500"
+                className="mx-2  transition-colors duration-300 hover:text-cyan-300"
                 aria-label="Github"
               >
                 <svg
@@ -189,7 +189,7 @@ const footer = () => {
               </a>
               <a
                 href="https://www.instagram.com/santajitpatra/"
-                className="mx-2  transition-colors duration-300 hover:text-blue-500"
+                className="mx-2  transition-colors duration-300 hover:text-cyan-300"
                 aria-label="Github"
               >
                 <svg
@@ -211,7 +211,7 @@ const footer = () => {
               </a>
               <a
                 href="https://www.linkedin.com/in/santajit-patra-9136651b4/"
-                className="mx-2  transition-colors duration-300 hover:text-blue-500"
+                className="mx-2  transition-colors duration-300 hover:text-cyan-300"
                 aria-label="Github"
               >
                 <svg
@@ -233,7 +233,7 @@ const footer = () => {
               </a>
               <a
                 href="https://twitter.com/SantajitPatra"
-                className="mx-2  transition-colors duration-300 hover:text-blue-500"
+                className="mx-2  transition-colors duration-300 hover:text-cyan-300"
                 aria-label="Github"
               >
                 <svg
@@ -253,7 +253,7 @@ const footer = () => {
               </a>
               <a
                 href="https://github.com/santajitpatra/"
-                className="mx-2  transition-colors duration-300 hover:text-blue-500"
+                className="mx-2  transition-colors duration-300 hover:text-cyan-300"
                 aria-label="Github"
               >
                 <svg
