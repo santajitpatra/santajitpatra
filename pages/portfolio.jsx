@@ -29,8 +29,8 @@ const portfolio = () => {
           image='/project2.png'
         />
         <PortfolioLeft
-          title="Hotflix | A Revolutionary Streaming Platform for Movies & TV Shows"
-          description="I recently completed the development of Hotflix, a streaming web site for watching movies and shows. Hotflix offers a comprehensive selection of movies and shows from a variety of genres. Users can browse through the library and watch their favorite movies and shows. The site also features a ratings system for each movie or show so users can easily find the best content. Additionally, Hotflix provides a personalized experience for each user by offering recommendations based on their viewing history. Hotflix is a great way to watch the latest movies and shows in a convenient and enjoyable way."
+          title="Creating the Ecommerce Website 'Blackhole'"
+          description="I recently completed a project to create a fully functional ecommerce website, 'Blackhole'. The project involved me designing and developing the website from the ground up, including the back-end and front-end. This project has enabled me to become more proficient with web development, while also providing a solid example of my ability to create a reliable and user-friendly website."
           name="Santajit Patra"
           about="Freelance web developer"
           image="/project1.png"
