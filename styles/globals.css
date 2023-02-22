@@ -10,3 +10,10 @@
     font-family: 'Poppins', sans-serif;
     }
     
+    .TA {
+        transition: transform 450ms;
+      }
+      .TA:hover {
+        transform: scale(1.09);
+      }
+      

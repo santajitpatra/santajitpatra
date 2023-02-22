@@ -53,9 +53,10 @@ const services = () => {
                   </div>
                 </div>
               </div>
-              <div className="m-8 lg:w-3/5 hidden overflow-hidden rounded-xl sm:block">
+              <div className="m-8 lg:w-3/5 hidden overflow-hidden rounded-3xl sm:block">
                 <Image
-                  src="/seox.png"
+                className=""
+                  src="/aboutwork.jpg"
                   alt="Picture of the author"
                   width={500}
                   height={500}

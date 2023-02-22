@@ -9,7 +9,9 @@ import ServicesOffer from './servicesOffer'
 import Performance from './performance'
 import Header from './header'
 import GetInTuch from './getInTuch'
-
+import AboutDescription from './aboutDescription'
+import PortfolioRight from './portfolioRight'
+import PortfolioLeft from './portfolioLeft'
 
 export {
 Navbar,
@@ -22,5 +24,8 @@ ContactForm,
 ServicesOffer,
 Performance,
 Header,
-GetInTuch
+GetInTuch,
+AboutDescription,
+PortfolioRight,
+PortfolioLeft
 }
