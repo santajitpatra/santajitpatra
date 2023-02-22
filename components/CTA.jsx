@@ -5,7 +5,7 @@ const CTA = () => {
   return (
     <>
       <div className="mx-auto my-10 w-screen max-w-screen-xl px-4">
-        <div className="to flex items-center rounded-xl bg-gradient-to-l from-blue-500 to-fuchsia-500 px-8 text-white shadow-lg">
+        <div className="to flex items-center rounded-xl bg-gradient-to-tl  from-cyan-500 to-blue-700 px-8 text-white shadow-lg">
           <div className="my-10 lg:my-8 lg:w-1/2">
             <h2 className="text-2xl font-bold">
             Let's talk about business

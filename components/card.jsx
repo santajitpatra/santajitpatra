@@ -6,12 +6,12 @@ const card = () => {
     <div>
       <section className="py-20">
         <h2 className="mb-12 text-center font-sans text-5xl font-bold text-white">
-          Recent Added
+          Let's Discover Categories
         </h2>
-        <div className="mx-auto grid max-w-screen-lg grid-cols-1 gap-5 p-5 sm:grid-cols-2 md:grid-cols-3 lg:gap-10">
+        <div className="mx-auto grid max-w-screen-lg grid-cols-1 gap-5 p-5 sm:grid-cols-2 md:grid-cols-3 lg:gap-10 overflow-y-hidden">
           {/* <!-- ==================== Cards started  ====================  -->  */}
 
-          <article className="h-90 col-span-1 m-auto min-h-full cursor-pointer overflow-hidden rounded-2xl pb-2 shadow-lg transition-transform duration-200 hover:translate-y-2">
+          <article className="h-90 col-span-1 m-auto min-h-full cursor-pointer overflow-hidden rounded-2xl pb-2 shadow-lg transition-transform duration-200 TA">
             <Image
               className="max-h-40 w-full object-cover"
               alt="featured image"
@@ -22,11 +22,11 @@ const card = () => {
             <div className="w-full bg-white p-4">
               <p className="text-md font-medium text-pink-500">Alpha</p>
               <p className="mb-2 text-xl font-medium text-gray-800">
-            Discover Our Story: All About Us
-
-</p>
+                Discover Our Story: All About Us
+              </p>
               <p className="text-md font-light text-gray-400">
-              "Maximize Your Business Potential with Our Professional Web Development and Digital Marketing Expertise"
+                "Maximize Your Business Potential with Our Professional Web
+                Development and Digital Marketing Expertise"
               </p>
               <div className="justify-center mt-4 flex flex-wrap items-center">
                 <Link
@@ -38,7 +38,7 @@ const card = () => {
               </div>
             </div>
           </article>
-          <article className="h-90 col-span-1 m-auto min-h-full cursor-pointer overflow-hidden rounded-2xl pb-2 shadow-lg transition-transform duration-200 hover:translate-y-2">
+          <article className="h-90 col-span-1 m-auto min-h-full cursor-pointer overflow-hidden rounded-2xl pb-2 shadow-lg transition-transform duration-200 TA">
             <Image
               className="max-h-40 w-full object-cover"
               alt="featured image"
@@ -65,7 +65,7 @@ const card = () => {
               </div>
             </div>
           </article>
-          <article className="h-90 col-span-1 m-auto min-h-full cursor-pointer overflow-hidden rounded-2xl pb-2 shadow-lg transition-transform duration-200 hover:translate-y-2">
+          <article className="h-90 col-span-1 m-auto min-h-full cursor-pointer overflow-hidden rounded-2xl pb-2 shadow-lg transition-transform duration-200 TA">
             <Image
               className="max-h-40 w-full object-cover"
               alt="featured image"
