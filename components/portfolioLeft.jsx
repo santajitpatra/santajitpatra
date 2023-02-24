@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from "next/image";
 
+
 const portfolioLeft = (project) => {
   return (
     <section className="text-white">
@@ -11,13 +12,18 @@ const portfolioLeft = (project) => {
           <h3 className="text-2xl font-semibold lg:text-3xl lg:w-96">
             {project.title}
           </h3>
-          <p className="max-w-lg mt-6 text-purple-100">
+          <p className="max-w-lg mt-6 text-purple-100 line-clamp-7">
             {project.description}
           </p>
           <h4 className="mt-6 text-lg font-medium text-cyan-300 ">{project.name}</h4>
           <p className="text-purple-100">{project.about}</p>
           <div className="flex items-center justify-between mt-12 lg:justify-start">
-       
+          <a
+                href="#"
+                className="mb-3 inline-flex h-12 w-full items-center justify-center px-6 font-medium tracking-wide shadow-md transition duration-200 focus:outline-none md:mr-4 md:mb-0 md:w-auto text-white hover:text-yellow-50 bg-gradient-to-r  from-pink-500 to-purple-500 hover:from-cyan-600 hover:to-blue-600 rounded-full"
+              >
+                See Project
+              </a>
           </div>
         </div>
 
