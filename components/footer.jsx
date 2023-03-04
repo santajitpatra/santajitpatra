@@ -2,9 +2,11 @@ import Link from "next/link";
 import Image from "next/image";
 
 const footer = () => {
+
+    const currentYear = new Date().getFullYear();
+
   return (
     <>
-
       <div className="container mx-auto px-6 mb-12 md:px-12 xl:px-32">
         <div className="text-center">
           <div
@@ -166,7 +168,7 @@ const footer = () => {
 
         <div className="">
           <div className="mx-auto flex max-w-screen-xl flex-col gap-y-4 px-4 py-3 text-center sm:flex-row sm:justify-between sm:text-left items-center">
-            <div className="">© 2023 SantajitPatra | All Rights Reserved</div>
+            <div className="">© {currentYear} SantajitPatra | All Rights Reserved</div>
             <div className="flex">
               <a
                 href="https://www.facebook.com/Santajit-Patra-191090504774038"
