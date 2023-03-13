@@ -1,0 +1,49 @@
+import Image from "next/image";
+
+const ServicesCTA = () => {
+  return (
+ <div className="relative mx-auto w-full pb-32 pt-8 text-black">
+          <div className="absolute inset-0 bottom-56 bg-slate-100" />
+          <div className="relative pt-20 mx-auto w-full max-w-screen-xl px-2 text-left sm:px-10">
+            <div className="rounded-xl bg-white shadow-lg shadow-blue-200 lg:flex">
+              <div className="flex flex-col p-4 pb-6 sm:p-10 sm:pt-14 lg:w-2/5">
+                <div className="flex-auto">
+                  <h2 className="text-2xl font-black">
+                    Keep Track of Your Projects from Start to Finish
+                  </h2>
+                  <p className="pt-4">
+                    Create tasks, track time, share with colleagues, nd share
+                    progress in real time.
+                  </p>
+                  <div className="mt-6 flex flex-wrap">
+                    <p className="m-1 rounded-md text-gray-600 bg-gray-100 px-2 py-1 text-sm">
+                      Web development
+                    </p>
+                    <p className="m-1 rounded-md text-gray-600 bg-gray-100 px-2 py-1 text-sm">
+                      Graphic design
+                    </p>
+                    <p className="m-1 rounded-md text-gray-600 bg-gray-100 px-2 py-1 text-sm">
+                      Social media marketing
+                    </p>
+                    <p className="m-1 rounded-md text-gray-600 bg-gray-100 px-2 py-1 text-sm">
+                      Virtual assistance
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="m-8 lg:w-3/5 hidden overflow-hidden rounded-3xl sm:block">
+                <Image
+                className=""
+                  src="/aboutwork.jpg"
+                  alt="Picture of the author"
+                  width={500}
+                  height={500}
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+  )
+}
+
+export default ServicesCTA

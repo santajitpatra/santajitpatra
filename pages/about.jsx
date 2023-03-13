@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { Navbar, Header, Footer, AboutDescription } from "../components";
+import { Navbar, Header, Footer, AboutDescription, Whatsapp } from "../components";
 
 const about = () => {
   return (
@@ -16,6 +16,7 @@ const about = () => {
         <Header title="About" bg='url("./websitedev.jpg")' />
         <AboutDescription />
         <Footer />
+        <Whatsapp />
       </div>
     </>
   );

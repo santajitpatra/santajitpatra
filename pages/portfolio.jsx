@@ -6,6 +6,7 @@ import {
   Header,
   PortfolioRight,
   PortfolioLeft,
+  Whatsapp
 } from "../components";
 
 const portfolio = () => {
@@ -39,6 +40,7 @@ const portfolio = () => {
         />
         </div>
         <Footer />
+        <Whatsapp />
       </section>
     </div>
   );
