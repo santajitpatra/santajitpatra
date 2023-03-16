@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { Navbar, Hero, Footer, Card, CTA, ContactForm, ServicesOffer } from "../components";
+import { Navbar, Hero, Footer, Card, CTA, ContactForm, ServicesOffer, Whatsapp} from "../components";
 
 const Home = () => {
   return (
@@ -25,6 +25,7 @@ const Home = () => {
         </h2>
         <ContactForm />
         <Footer />
+        <Whatsapp />
       </div>
     </>
   );

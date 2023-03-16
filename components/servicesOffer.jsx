@@ -14,7 +14,7 @@ const servicesOffer = () => {
             </h2>
           </div>
       
-          <div className="relative w-72 xl:w-96 h-56 p-4 overflow-hidden bg-white shadow-lg rounded-2xl px-4 pt-14 pb-8 TA">
+          <div className="relative w-[21rem] lg:w-72 xl:w-96 h-56 p-4 overflow-hidden bg-white shadow-lg rounded-2xl px-4 pt-14 pb-8 TA">
             <Image
               alt="moto"
               src="/santajit-patra-11.jpeg"
@@ -33,7 +33,7 @@ const servicesOffer = () => {
             </div>
           </div>
 
-          <div className="relative w-72 xl:w-96 h-56 p-4 overflow-hidden bg-white shadow-lg rounded-2xl px-4 pt-14 pb-8 TA">
+          <div className="relative w-[21rem] lg:w-72 xl:w-96 h-56 p-4 overflow-hidden bg-white shadow-lg rounded-2xl px-4 pt-14 pb-8 TA">
             <Image
               alt="moto"
               src="/santajit-patra-11.jpeg"
@@ -51,7 +51,7 @@ const servicesOffer = () => {
               </p>
             </div>
           </div>
-          <div className="relative w-72 xl:w-96 h-56 p-4 overflow-hidden bg-white shadow-lg rounded-2xl px-4 pt-14 pb-8 TA">
+          <div className="relative w-[21rem] lg:w-72 xl:w-96 h-56 p-4 overflow-hidden bg-white shadow-lg rounded-2xl px-4 pt-14 pb-8 TA">
             <Image
               alt="moto"
               src="/santajit-patra-11.jpeg"
@@ -69,7 +69,7 @@ const servicesOffer = () => {
               </p>
             </div>
           </div>
-          <div className="relative w-72 xl:w-96 h-56 p-4 overflow-hidden bg-white shadow-lg rounded-2xl px-4 pt-14 pb-8 TA">
+          <div className="relative w-[21rem] lg:w-72 xl:w-96 h-56 p-4 overflow-hidden bg-white shadow-lg rounded-2xl px-4 pt-14 pb-8 TA">
             <Image
               alt="moto"
               src="/santajit-patra-11.jpeg"
@@ -87,7 +87,7 @@ const servicesOffer = () => {
               </p>
             </div>
           </div>
-          <div className="relative w-72 xl:w-96 h-56 p-4 overflow-hidden bg-white shadow-lg rounded-2xl px-4 pt-14 pb-8 TA">
+          <div className="relative w-[21rem] lg:w-72 xl:w-96 h-56 p-4 overflow-hidden bg-white shadow-lg rounded-2xl px-4 pt-14 pb-8 TA">
             <Image
               alt="moto"
               src="/santajit-patra-11.jpeg"

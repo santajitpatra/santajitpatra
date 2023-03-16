@@ -12,6 +12,9 @@ import GetInTuch from './getInTuch'
 import AboutDescription from './aboutDescription'
 import PortfolioRight from './portfolioRight'
 import PortfolioLeft from './portfolioLeft'
+import Whatsapp from './Whatsapp'
+import ServicesCTA from './servicesCTA'
+
 
 export {
 Navbar,
@@ -27,5 +30,7 @@ Header,
 GetInTuch,
 AboutDescription,
 PortfolioRight,
-PortfolioLeft
+PortfolioLeft,
+Whatsapp,
+ServicesCTA
 }
