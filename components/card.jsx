@@ -31,7 +31,7 @@ const card = () => {
               <div className="justify-center mt-4 flex flex-wrap items-center">
                 <Link
                   href="/about"
-                  className="mb-3 inline-flex h-12 w-full items-center justify-center px-6 font-medium tracking-wide shadow-md transition duration-200 focus:outline-none md:mr-4 md:mb-0 md:w-auto text-white hover:text-yellow-50 bg-gradient-to-r  from-pink-500 to-purple-500 hover:from-cyan-600 hover:to-blue-600 rounded-full"
+                  className="btn-primary "
                 >
                   About Us{" "}
                 </Link>
@@ -58,7 +58,7 @@ const card = () => {
               <div className="justify-center mt-4 flex flex-wrap items-center">
                 <Link
                   href="/services"
-                  className="mb-3 inline-flex h-12 w-full items-center justify-center px-6 font-medium tracking-wide shadow-md transition duration-200 focus:outline-none md:mr-4 md:mb-0 md:w-auto text-white hover:text-yellow-50 bg-gradient-to-r  from-pink-500 to-purple-500 hover:from-cyan-600 hover:to-blue-600 rounded-full"
+                  className="btn-primary "
                 >
                   Our Services{" "}
                 </Link>
@@ -85,7 +85,7 @@ const card = () => {
               <div className="justify-center mt-4 flex flex-wrap items-center">
                 <Link
                   href="/contact"
-                  className="mb-3 inline-flex h-12 w-full items-center justify-center px-6 font-medium tracking-wide shadow-md transition duration-200 focus:outline-none md:mr-4 md:mb-0 md:w-auto text-white hover:text-yellow-50 bg-gradient-to-r  from-pink-500 to-purple-500 hover:from-cyan-600 hover:to-blue-600 rounded-full"
+                  className="btn-primary "
                 >
                   Contact Us{" "}
                 </Link>

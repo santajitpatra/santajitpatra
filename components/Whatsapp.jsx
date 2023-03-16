@@ -5,7 +5,7 @@ const Whatsapp = () => {
 
   useEffect(() => {
     window.addEventListener("scroll", () => {
-      if (window.scrollY > 200) {
+      if (window.scrollY > 100) {
         handleShow(true);
       } else handleShow(false);
     });
@@ -17,14 +17,14 @@ const Whatsapp = () => {
   }, []);
 
   return (
-    <div className={show && "m-auto flex w-20 h-20 fixed bottom-7 right-7 bg-green-500 rounded-full shadow-lg overflow-hidden transition-transform duration-200 TA whatsapp_transform"}>
+    <div className={show && "m-auto flex w-16 h-16 fixed bottom-7 right-7 bg-green-500 rounded-full shadow-lg overflow-hidden transition-transform duration-200 TA whatsapp_transform"}>
         <a href="https://wa.me/+918509625715" className=" m-auto " target="_blank"
         rel="noreferrer" >
         <svg
           xmlns="http://www.w3.org/2000/svg"
           class="icon icon-tabler icon-tabler-brand-whatsapp"
-          width="60"
-          height="60"
+          width="50"
+          height="50"
           viewBox="0 0 24 24"
           stroke-width="1.5"
           stroke="#ffffff"

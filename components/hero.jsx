@@ -27,14 +27,14 @@ const hero = () => {
             <div className="flex flex-col items-center md:flex-row">
               <Link
                 href="/about"
-                className="mb-3 inline-flex h-12 w-full items-center justify-center px-6 font-medium tracking-wide shadow-md transition duration-200 focus:outline-none md:mr-4 md:mb-0 md:w-auto text-white hover:text-yellow-50 bg-gradient-to-r  from-pink-500 to-purple-500 hover:from-cyan-600 hover:to-blue-600 rounded-full"
+                className="btn-primary "
               >
                 About Us
               </Link>
               <Link
                 href="/contact"
                 aria-label=""
-                className="mb-3 inline-flex h-12 w-full items-center justify-center px-6 font-medium tracking-wide shadow-md transition duration-200 focus:outline-none md:mr-4 md:mb-0 md:w-auto text-white hover:text-yellow-50 bg-gradient-to-r  from-pink-500 to-purple-500 hover:from-cyan-600 hover:to-blue-600 rounded-full"
+                className="btn-primary "
               >
                 Contact Us
               </Link>
