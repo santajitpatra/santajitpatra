@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { Navbar,Header, Footer, ServicesOffer, Performance, Whatsapp, ServicesCTA } from "../components";
+import { Navbar, Header, Footer, ServicesOffer, Performance, Whatsapp, ServicesCTA } from "../components";
 
 const services = () => {
   return (
