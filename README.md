@@ -11,7 +11,7 @@ Welcome to our web development and digital marketing team! We are a team of expe
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://santajitpatra.netlify.app/)
 
 ## Color Reference
 
