@@ -31,7 +31,7 @@ a {
   --third: #fff;
   --helper: #8490ff;
   --helper-tint: #f3f4ff;
-  --bg: rgb(249 249 255);
+  --bg: linear-gradient( 180.7deg,  rgba(0,213,255,1) 2.5%, rgba(79,255,255,1) 97.7% );
   --gradient: linear-gradient(0deg, rgb(132 144 255) 0%, rgb(98 189 252) 100%);
   --shadpw: 0px 0px 20px 0px rgb(132 144 255 / 20%);
 }
@@ -43,8 +43,14 @@ a {
 @layer components {
   .btn-primary {
       @apply mb-3 inline-flex h-12 w-full items-center justify-center px-6 font-medium tracking-wide shadow-md transition duration-200 focus:outline-none md:mr-4 md:mb-0 md:w-auto text-white hover:text-yellow-50 bg-gradient-to-r  from-pink-500 to-purple-500 hover:from-cyan-600 hover:to-blue-600 rounded-full;
+  };
+
+  .BG {
+   @apply text-white bg-gradient-to-tr  from-blue-500 to-purple-500
   }
 }
+
+
 
 
 

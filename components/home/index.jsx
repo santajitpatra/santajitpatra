@@ -1,0 +1,27 @@
+import React from 'react'
+import { Navbar, Hero, Footer, Card, CTA, ContactForm, ServicesOffer, Whatsapp} from "../../components";
+
+const index = () => {
+  return (
+    <div>
+            <div className="flex min-h-screen w-screen flex-col bg-gradient-to-tr  from-blue-500 to-purple-500">
+        <Navbar />
+        <Hero />
+        <Card />
+        <CTA />
+        <h2 className="mt-12 text-center font-sans text-5xl font-bold text-white">
+          Our Services
+        </h2>
+        <ServicesOffer />
+        <h2 className="text-center font-sans text-5xl font-bold text-white">
+          Contact Us
+        </h2>
+        <ContactForm />
+        <Footer />
+        <Whatsapp />
+      </div>
+    </div>
+  )
+}
+
+export default index

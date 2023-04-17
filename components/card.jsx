@@ -33,7 +33,7 @@ const card = () => {
                   href="/about"
                   className="btn-primary "
                 >
-                  About Us{" "}
+                  About Us
                 </Link>
               </div>
             </div>
@@ -49,7 +49,7 @@ const card = () => {
             <div className="w-full bg-white p-4">
               <p className="text-md font-medium text-cyan-500">Beta</p>
               <p className="mb-2 text-xl font-medium text-gray-800">
-                You Can Check Our Services
+                You Can Check Our Services Here
               </p>
               <p className="text-md font-light text-gray-400">
                 "Web design, development, SEO, social media marketing, and more.

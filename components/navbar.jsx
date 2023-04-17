@@ -61,7 +61,7 @@ const navbar = () => {
         >
           <ul className="flex flex-col items-center space-y-2 md:ml-auto md:flex-row md:space-y-0">
             <li className="xl:mr-12 md:mr-6 hover:text-cyan-300">
-              <Link href="/home">Home</Link>
+              <Link href="/">Home</Link>
             </li>
             <li className="xl:mr-12 md:mr-6 hover:text-cyan-300">
               <Link href="/about">About</Link>
