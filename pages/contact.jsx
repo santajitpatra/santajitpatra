@@ -1,6 +1,7 @@
 import Head from "next/head";
-import { Navbar,Header, Footer,  Map, ContactForm, Whatsapp} from "../components";
-// import Link from "next/link";
+import { Map, ContactForm, Whatsapp} from "../components";
+import { Navbar, Header, Footer} from "../components/layouts";
+
 
 const contact = () => {
   return (

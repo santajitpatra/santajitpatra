@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import webSvg from "assets/images/Web_devices.svg"
 
 const servicesOffer = () => {
   return (
@@ -17,7 +18,7 @@ const servicesOffer = () => {
           <div className="relative w-[21rem] lg:w-72 xl:w-96 h-56 p-4 overflow-hidden bg-white shadow-lg rounded-2xl px-4 pt-14 pb-8 TA">
             <Image
               alt="moto"
-              src="/santajit-patra-11.jpeg"
+              src={webSvg}
               className="absolute w-40 h-40 mb-4 rounded-full -right-20 -bottom-8"
               width={500}
               height={500}
@@ -36,7 +37,7 @@ const servicesOffer = () => {
           <div className="relative w-[21rem] lg:w-72 xl:w-96 h-56 p-4 overflow-hidden bg-white shadow-lg rounded-2xl px-4 pt-14 pb-8 TA">
             <Image
               alt="moto"
-              src="/santajit-patra-11.jpeg"
+              src={webSvg}
               className="absolute w-40 h-40 mb-4 rounded-full -right-20 -bottom-8"
               width={500}
               height={500}
@@ -54,7 +55,7 @@ const servicesOffer = () => {
           <div className="relative w-[21rem] lg:w-72 xl:w-96 h-56 p-4 overflow-hidden bg-white shadow-lg rounded-2xl px-4 pt-14 pb-8 TA">
             <Image
               alt="moto"
-              src="/santajit-patra-11.jpeg"
+              src={webSvg}
               className="absolute w-40 h-40 mb-4 rounded-full -right-20 -bottom-8"
               width={500}
               height={500}
@@ -72,7 +73,7 @@ const servicesOffer = () => {
           <div className="relative w-[21rem] lg:w-72 xl:w-96 h-56 p-4 overflow-hidden bg-white shadow-lg rounded-2xl px-4 pt-14 pb-8 TA">
             <Image
               alt="moto"
-              src="/santajit-patra-11.jpeg"
+              src={webSvg}
               className="absolute w-40 h-40 mb-4 rounded-full -right-20 -bottom-8"
               width={500}
               height={500}
@@ -90,7 +91,7 @@ const servicesOffer = () => {
           <div className="relative w-[21rem] lg:w-72 xl:w-96 h-56 p-4 overflow-hidden bg-white shadow-lg rounded-2xl px-4 pt-14 pb-8 TA">
             <Image
               alt="moto"
-              src="/santajit-patra-11.jpeg"
+              src={webSvg}
               className="absolute w-40 h-40 mb-4 rounded-full -right-20 -bottom-8"
               width={500}
               height={500}

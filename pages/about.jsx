@@ -1,5 +1,7 @@
 import Head from "next/head";
-import { Navbar, Header, Footer, AboutDescription, Whatsapp } from "../components";
+import { AboutDescription, Whatsapp } from "../components";
+import { Navbar, Header, Footer} from "../components/layouts";
+
 
 const about = () => {
   return (

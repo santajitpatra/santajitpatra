@@ -1,5 +1,5 @@
-import Navbar from './navbar';
-import Footer from './footer';
+import Navbar from './layouts/navbar';
+import Footer from './layouts/footer';
 import Hero from './hero';
 import Card from './card';
 import CTA from './CTA';
@@ -7,7 +7,7 @@ import Map from './map';
 import ContactForm from './contactForm';
 import ServicesOffer from './servicesOffer';
 import Performance from './performance';
-import Header from './header';
+import Header from './layouts/header';
 import GetInTuch from './getInTuch';
 import AboutDescription from './aboutDescription';
 import PortfolioRight from './portfolioRight';
@@ -34,4 +34,4 @@ PortfolioRight,
 PortfolioLeft,
 Whatsapp,
 ServicesCTA,
-}
+};

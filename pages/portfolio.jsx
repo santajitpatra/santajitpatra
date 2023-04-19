@@ -1,13 +1,12 @@
 import React from "react";
 import Head from "next/head";
 import {
-  Navbar,
-  Footer,
-  Header,
   PortfolioRight,
   PortfolioLeft,
   Whatsapp,
 } from "../components";
+import { Navbar, Header, Footer} from "../components/layouts";
+
 
 const portfolio = () => {
   return (

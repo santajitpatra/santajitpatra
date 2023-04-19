@@ -1,5 +1,5 @@
 import React from "react";
-import { Navbar, Footer } from "../components";
+import { Navbar, Footer} from "../components/layouts";
 
 const privacy = () => {
   return (

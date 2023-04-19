@@ -1,5 +1,7 @@
 import React from 'react'
-import { Navbar, Hero, Footer, Card, CTA, ContactForm, ServicesOffer, Whatsapp} from "../../components";
+import { Hero, Card, CTA, ContactForm, ServicesOffer, Whatsapp} from "../../components";
+import { Navbar, Footer} from "../layouts";
+
 
 const index = () => {
   return (
