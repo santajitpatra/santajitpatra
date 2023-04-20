@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import { about, website, contact } from "@/constants/images";
 
 const card = () => {
   return (
@@ -15,7 +16,7 @@ const card = () => {
             <Image
               className="max-h-40 w-full object-cover"
               alt="featured image"
-              src="/about.jpg"
+              src={about}
               width={500}
               height={500}
             />
@@ -42,7 +43,7 @@ const card = () => {
             <Image
               className="max-h-40 w-full object-cover"
               alt="featured image"
-              src="/website.jpg"
+              src={website}
               width={500}
               height={500}
             />
@@ -69,7 +70,7 @@ const card = () => {
             <Image
               className="max-h-40 w-full object-cover"
               alt="featured image"
-              src="/contact.jpg"
+              src={contact}
               width={500}
               height={500}
             />

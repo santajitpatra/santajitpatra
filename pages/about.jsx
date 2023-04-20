@@ -1,6 +1,7 @@
 import Head from "next/head";
 import { AboutDescription, Whatsapp } from "../components";
-import { Navbar, Header, Footer} from "../components/layouts";
+import { Navbar, Header, Footer } from "../components/layouts";
+// import { websiteDev } from "../constants/images";
 
 
 const about = () => {
@@ -12,7 +13,7 @@ const about = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      
+
       <div className="flex min-h-screen w-screen flex-col text-white  BG">
         <Navbar />
         <Header title="About" bg='url("./websitedev.jpg")' />
