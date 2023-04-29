@@ -1,11 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import {
-  facebook,
-  instagram,
-  linkedin,
-  twitter,
-  github,
+ appStore,playStore
 } from "@/constants/images";
 
 const footer = () => {
