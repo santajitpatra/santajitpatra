@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import {
- appStore,playStore
+ appStore, playStore
 } from "@/constants/images";
 
 const footer = () => {
@@ -149,14 +149,14 @@ const footer = () => {
               <div className="mb-4">
                 <div className="space-y-3">
                   <Image
-                    src="/playstore-free-img.png"
+                    src={ appStore}
                     className="w-48 rounded"
                     alt="Picture of the author"
                     width={500}
                     height={500}
                   />
                   <Image
-                    src="/appstore-free-img.png"
+                    src={ playStore}
                     className="w-48 rounded"
                     alt="Picture of the author"
                     width={500}
