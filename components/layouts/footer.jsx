@@ -1,9 +1,15 @@
 import Link from "next/link";
 import Image from "next/image";
+import {
+  facebook,
+  instagram,
+  linkedin,
+  twitter,
+  github,
+} from "@/constants/images";
 
 const footer = () => {
-
-    const currentYear = new Date().getFullYear();
+  const currentYear = new Date().getFullYear();
 
   return (
     <>
@@ -168,7 +174,9 @@ const footer = () => {
 
         <div className="">
           <div className="mx-auto flex max-w-screen-xl flex-col gap-y-4 px-4 py-3 text-center sm:flex-row sm:justify-between sm:text-left items-center">
-            <div className="">© {currentYear} SantajitPatra | All Rights Reserved</div>
+            <div className="">
+              © {currentYear} SantajitPatra | All Rights Reserved
+            </div>
             <div className="flex">
               <a
                 href="https://www.facebook.com/Santajit-Patra-191090504774038"

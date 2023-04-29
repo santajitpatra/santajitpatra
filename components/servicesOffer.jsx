@@ -1,7 +1,6 @@
 import React from "react";
 import Image from "next/image";
-// import webSvg from "assets/images/Web_devices.svg";
-import {webSvg }from "../constants/images"
+import {webSvg }from "@/constants/images"
 
 const servicesOffer = () => {
   return (

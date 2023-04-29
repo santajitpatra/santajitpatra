@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import { seox } from "@/constants/images";
 
 const hero = () => {
   return (
@@ -43,7 +44,7 @@ const hero = () => {
           <div className="relative shadow-xl shadow-violet-700 rounded-2xl lg:w-1/2">
             <Image
               className="h-56 w-full rounded-2xl object-cover shadow-lg sm:h-96"
-              src="/seox.png"
+              src={seox}
               alt="#"
               width={500}
               height={500}

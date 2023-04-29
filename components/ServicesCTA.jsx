@@ -1,3 +1,4 @@
+import { aboutWork } from "@/constants/images";
 import Image from "next/image";
 
 const ServicesCTA = () => {
@@ -34,7 +35,7 @@ const ServicesCTA = () => {
               <div className="m-8 lg:w-3/5 hidden overflow-hidden rounded-3xl sm:block">
                 <Image
                 className=""
-                  src="/aboutwork.jpg"
+                  src={aboutWork}
                   alt="Picture of the author"
                   width={500}
                   height={500}

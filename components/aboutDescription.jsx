@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from "next/image";
+import {work} from "@/constants/images";
 
 
 const aboutDescription = () => {
@@ -37,7 +38,7 @@ const aboutDescription = () => {
             <div className="flex h-full w-full space-x-3 overflow-hidden md:justify-end">
               <Image
               className="rounded-tl-3xl rounded-br-3xl"
-                src="/work.jpg"
+                src={work}
                 alt="Picture of the author"
                 width={600}
                 height={500}

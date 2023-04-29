@@ -1,5 +1,7 @@
 import Link from "next/link";
 import Image from 'next/image'
+import { santajit } from "@/constants/images";
+
 
 const CTA = () => {
   return (
@@ -39,7 +41,7 @@ const CTA = () => {
           <div className="hidden h-72 w-1/2 flex-shrink-0 justify-center lg:flex">
             <Image
               className="w-48 h-48 m-12 rounded-full"
-              src="/santajit-patra-11.jpeg"
+              src={santajit}
               alt="#"
               width={500}
               height={500}
