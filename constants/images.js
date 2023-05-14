@@ -10,9 +10,6 @@ import linkedin from "@/assets/images/linkedin.svg";
 import aboutWork from "../assets/images/aboutwork.jpg";
 import appStore from "../assets/images/appstore-free-img.png";
 import contact from "../assets/images/contact.jpg";
-import project1 from "../assets/images/project1.png";
-import project2 from "../assets/images/project2.png";
-import project3 from "../assets/images/project3.png";
 import playStore from "../assets/images/playstore-free-img.png";
 import services from "../assets/images/services.jpg";
 import website from "../assets/images/website.jpg";
@@ -23,13 +20,23 @@ import contactUs from "../assets/images/contactus.jpg";
 import about from "../assets/images/about.jpg";
 import seox from "../assets/images/seox.png";
 
+// project image
+import project1 from "../assets/images/project1.png";
+import project2 from "../assets/images/project2.png";
+import project3 from "../assets/images/project3.png";
+import project4 from "../assets/images/project4.png";
+import project5 from "../assets/images/project5.png";
+import project6 from "../assets/images/project6.png";
+import project7 from "../assets/images/project7.png";
+import project8 from "../assets/images/project8.png";
+import project9 from "../assets/images/project9.png";
+import project10 from "../assets/images/project10.png";
+
+
 export {
   webSvg,
   aboutWork,
   appStore,
-  project1,
-  project2,
-  project3,
   playStore,
   services,
   santajit,
@@ -45,4 +52,15 @@ export {
   linkedin,
   twitter,
   github,
+
+  project1,
+  project2,
+  project3,
+  project4,
+  project5,
+  project6,
+  project7,
+  project8,
+  project9,
+  project10
 };
