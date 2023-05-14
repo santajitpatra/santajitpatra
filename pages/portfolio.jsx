@@ -1,6 +1,6 @@
 import React from "react";
 import Head from "next/head";
-import { PortfolioRight, PortfolioLeft, Whatsapp } from "../components";
+import { PortfolioRight, PortfolioLeft, Whatsapp, PortfolioCTA} from "../components";
 import { Navbar, Header, Footer } from "../components/layouts";
 import {
   project1,
@@ -74,7 +74,7 @@ const portfolio = () => {
             name="Santajit Patra"
             about="Freelance web developer"
             image={project5}
-            button="emoticoninterpreter0.netlify.app/"
+            button="https://emoticoninterpreter0.netlify.app/"
             buttonSource="https://github.com/santajitpatra/emoticon-interpreter"
           />
           <PortfolioRight
@@ -84,7 +84,7 @@ const portfolio = () => {
             name="Santajit Patra"
             about="Freelance web developer"
             image={project6}
-            button="birthdayluckycalculator.netlify.app/"
+            button="https://birthdayluckycalculator.netlify.app/"
             buttonSource="https://github.com/santajitpatra/birthday-lucky-calculator"
           />
           <PortfolioLeft
@@ -96,7 +96,7 @@ const portfolio = () => {
             name="Santajit Patra"
             about="Freelance web developer"
             image={project7}
-            button="profileandlosscalculator.netlify.app/"
+            button="https://profileandlosscalculator.netlify.app/"
             buttonSource="https://github.com/santajitpatra/profit-or-loss-calculator"
           />
           <PortfolioRight
@@ -106,7 +106,7 @@ const portfolio = () => {
             name="Santajit Patra"
             about="Freelance web developer"
             image={project8}
-            button="bananatranslator0.netlify.app/"
+            button="https://bananatranslator0.netlify.app/"
             buttonSource="https://github.com/santajitpatra/banana-translator"
           />
           <PortfolioLeft
@@ -116,7 +116,7 @@ const portfolio = () => {
             name="Santajit Patra"
             about="Freelance web developer"
             image={project9}
-            button="learntriangles0.netlify.app/"
+            button="https://learntriangles0.netlify.app/"
             buttonSource="https://github.com/santajitpatra/learn-triangles"
           />
                     <PortfolioRight
@@ -126,10 +126,11 @@ const portfolio = () => {
             name="Santajit Patra"
             about="Freelance web developer"
             image={project10}
-            button="goodbooks0.netlify.app/"
+            button="https://goodbooks0.netlify.app/"
             buttonSource="https://github.com/santajitpatra/goodbooks"
           />
         </div>
+        <PortfolioCTA />
         <Footer />
         <Whatsapp />
       </section>

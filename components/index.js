@@ -14,7 +14,7 @@ import PortfolioRight from './portfolioRight';
 import PortfolioLeft from './portfolioLeft';
 import Whatsapp from './Whatsapp';
 import ServicesCTA from './ServicesCTA';
-
+import PortfolioCTA from './PortfolioCTA';
 
 
 export {
@@ -34,4 +34,5 @@ PortfolioRight,
 PortfolioLeft,
 Whatsapp,
 ServicesCTA,
+PortfolioCTA,
 };

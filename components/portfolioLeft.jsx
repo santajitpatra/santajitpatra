@@ -40,12 +40,16 @@ const portfolioLeft = (project) => {
         <p className="text-purple-100">{project.about}</p>
         <div className="flex items-center justify-between mt-12 lg:justify-start">
           <a
+            target="_blank"
+            rel="noopener noreferrer"
             href={project.button}
             className="btn-primary "
           >
             See Project
           </a>
           <a
+            target="_blank"
+            rel="noopener noreferrer"
             href={project.buttonSource}
             className="btn-primary "
           >

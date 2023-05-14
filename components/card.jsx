@@ -25,7 +25,7 @@ const card = () => {
               <p className="mb-2 text-xl font-medium text-gray-800">
                 Discover Our Story: All About Us
               </p>
-              <p className="text-md font-light text-gray-400">
+              <p className="text-md font-light text-gray-400 line-clamp-3">
                 "Maximize Your Business Potential with Our Professional Web
                 Development and Digital Marketing Expertise"
               </p>
