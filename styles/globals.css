@@ -70,5 +70,12 @@ a {
 .BGCTA {
   background-image: url("../assets/images/website.jpg");
   background-repeat: no-repeat;
-  background-color: #000;
+  background-size: cover;
+  background-position: center;
 }
+
+.BGCTA-blur {
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.7);
+}
+

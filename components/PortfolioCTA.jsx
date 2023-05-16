@@ -2,8 +2,8 @@ import React from "react";
 
 const PortfolioCTA = () => {
   return (
-    <div className="xl:-mb-24 -mb-28">
-      <section  className="relative py-10 text-white sm:py-16 lg:py-24 BGCTA">
+    <div className="xl:-mb-[5.4rem] md:-mb-[4.7rem]  sm:-mb-40  -mb-[6.9rem] BGCTA">
+      <section  className="relative py-10 text-white sm:py-16 lg:py-24 BGCTA-blur">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h2 className="text-3xl font-medium leading-tight sm:text-4xl lg:text-5xl">
