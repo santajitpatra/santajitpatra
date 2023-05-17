@@ -14,6 +14,12 @@ import {
   project9,
   project10,
 } from "@/constants/images";
+import workDB from "../constants/workdb"
+
+workDB.map((data) => {
+  console.log(data);
+});
+
 
 const portfolio = () => {
   return (
@@ -24,12 +30,13 @@ const portfolio = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <section className="flex min-h-screen w-screen flex-col BG">
+      <div className="flex min-h-screen w-screen flex-col BG">
         <Navbar />
         <Header title="Portfolio" bg='url("./website.jpg")' />
 
         <div className="container my-24 px-6 mx-auto">
-          <PortfolioLeft
+<div className="slide-left">
+<PortfolioLeft 
             title="Hotflix | A Revolutionary Streaming Platform for Movies & TV Shows"
             description="I recently completed the development of Hotflix, a streaming web site for watching movies and shows. Hotflix offers a comprehensive selection of movies and shows from a variety of genres. Users can browse through the library and watch their favorite movies and shows. The site also features a ratings system for each movie or show so users can easily find the best content. Additionally, Hotflix provides a personalized experience for each user by offering recommendations based on their viewing history. Hotflix is a great way to watch the latest movies and shows in a convenient and enjoyable way."
             name="Santajit Patra"
@@ -38,6 +45,7 @@ const portfolio = () => {
             button="https://hotflix0.netlify.app/"
             buttonSource="https://github.com/santajitpatra/hotflix.git"
           />
+</div>
           <PortfolioRight
             title="Creating the Ecommerce Website 'Blackhole'"
             description="I recently completed a project to create a fully functional ecommerce website, 'Blackhole'. The project involved me designing and developing the website from the ground up, including the back-end and front-end. This project has enabled me to become more proficient with web development, while also providing a solid example of my ability to create a reliable and user-friendly website."
@@ -57,10 +65,8 @@ const portfolio = () => {
             buttonSource="https://github.com/santajitpatra/cash-register-manager"
           />
           <PortfolioRight
-            title="yoda Translator Web App
-            "
-            description="Welcome to the yoda Translator web app! This app allows users to translate English phrases into yoda language.
-            "
+            title="yoda Translator Web App"
+            description="Welcome to the yoda Translator web app! This app allows users to translate English phrases into yoda language."
             name="Santajit Patra"
             about="Freelance web developer"
             image={project4}
@@ -68,8 +74,7 @@ const portfolio = () => {
             buttonSource="https://github.com/santajitpatra/yoda-translator"
           />
           <PortfolioLeft
-            title="Emoticon Interpreter Web App
-            "
+            title="Emoticon Interpreter Web App"
             description="Welcome to the Emoticon Interpreter web app! This app allows you to enter an emoticon and get a description of its meaning."
             name="Santajit Patra"
             about="Freelance web developer"
@@ -78,8 +83,7 @@ const portfolio = () => {
             buttonSource="https://github.com/santajitpatra/emoticon-interpreter"
           />
           <PortfolioRight
-            title="Is Your Birthday Lucky Web App
-            "
+            title="Is Your Birthday Lucky Web App"
             description="This is a web application that helps you find out if your birthday is lucky or not. The app takes in your birthdate and a lucky number and calculates whether the sum of the digits in your birthdate is divisible by the lucky number. If it is, the app declares your birthday as lucky!"
             name="Santajit Patra"
             about="Freelance web developer"
@@ -88,20 +92,18 @@ const portfolio = () => {
             buttonSource="https://github.com/santajitpatra/birthday-lucky-calculator"
           />
           <PortfolioLeft
-            title="Profile & Loss Calculator Web App
-            "
+            title="Profile & Loss Calculator Web App"
             description="This is a web application that helps users calculate their profit or loss based on the purchase price, selling price, and quantity of an item.
 
             The app is built using HTML, CSS, and JavaScript, and provides a simple and intuitive interface for users to input the required data and get an instant calculation."
             name="Santajit Patra"
             about="Freelance web developer"
             image={project7}
-            button="https://profileandlosscalculator.netlify.app/"
+            button="https://profileandlosscalculator.netlify.app"
             buttonSource="https://github.com/santajitpatra/profit-or-loss-calculator"
           />
           <PortfolioRight
-            title="Banana Translator Web App
-            "
+            title="Banana Translator Web App"
             description="Welcome to the Banana Translator web app! This app allows users to translate English phrases into banana language."
             name="Santajit Patra"
             about="Freelance web developer"
@@ -110,8 +112,7 @@ const portfolio = () => {
             buttonSource="https://github.com/santajitpatra/banana-translator"
           />
           <PortfolioLeft
-            title="Fun with Triangles Web App
-            "
+            title="Fun with Triangles Web App "
             description="Welcome to the Fun with Triangles web app! This app allows you to learn and play with different properties of triangles."
             name="Santajit Patra"
             about="Freelance web developer"
@@ -120,8 +121,7 @@ const portfolio = () => {
             buttonSource="https://github.com/santajitpatra/learn-triangles"
           />
                     <PortfolioRight
-            title="Good Books Web App
-            "
+            title="Good Books Web App"
             description="This is a web application that allows users to browse and discover good books to read. The app is built using React JS and leverages the Books API to fetch book data."
             name="Santajit Patra"
             about="Freelance web developer"
@@ -133,7 +133,7 @@ const portfolio = () => {
         <PortfolioCTA />
         <Footer />
         <Whatsapp />
-      </section>
+      </div>
     </div>
   );
 };
