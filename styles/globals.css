@@ -68,8 +68,9 @@ a {
 }
 
 .BGCTA {
-  background-image: url("../assets/images/website.jpg");
+  background-image: url("../assets/images/services.jpg");
   background-repeat: no-repeat;
+  -webkit-background-size: cover;
   background-size: cover;
   background-position: center;
 }
