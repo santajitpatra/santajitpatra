@@ -16,7 +16,7 @@ const about = () => {
 
       <div className="flex min-h-screen w-screen flex-col text-white  BG">
         <Navbar />
-        <Header title="About" bg='url("./websitedev.jpg")' />
+        <Header title="About" bg='url("https://images.pexels.com/photos/3862132/pexels-photo-3862132.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")' />
         <AboutDescription />
         <Footer />
         <Whatsapp />

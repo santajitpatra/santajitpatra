@@ -32,7 +32,7 @@ const portfolio = () => {
       </Head>
       <div className="flex min-h-screen w-screen flex-col BG">
         <Navbar />
-        <Header title="Portfolio" bg='url("./website.jpg")' />
+        <Header title="Portfolio" bg='url("https://images.pexels.com/photos/943096/pexels-photo-943096.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")' />
 
         <div className="container my-24 px-6 mx-auto">
 <div className="slide-left">

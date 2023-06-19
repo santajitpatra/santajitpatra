@@ -18,7 +18,7 @@ const services = () => {
 
       <section className="flex min-h-screen w-screen flex-col BG">
         <Navbar />
-        <Header title="Services" bg='url("./services.jpg")'/>
+        <Header title="Services" bg='url("https://images.unsplash.com/photo-1504384308090-c894fdcc538d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80")'/>
         <ServicesOffer />
         <ServicesCTA />
         <Performance />
