@@ -151,7 +151,7 @@ const contactForm = () => {
               </div>
             </div>
             <div className="mt-8 lg:w-1/2 lg:mx-6 ">
-              <div className="w-full px-8 py-10 mx-auto overflow-hidden shadow-2xl rounded-xl lg:max-w-xl bg-gradient-to-tl  from-cyan-500 to-blue-700">
+              <div className="w-full px-8 py-10 mx-auto overflow-hidden shadow-2xl rounded-xl lg:max-w-xl bg-gradient-to-tl  from-violet-600 to-purple-500">
                 <h1 className="text-2xl font-medium">Contact form</h1>
                 <form
                   className="mt-6"
@@ -188,7 +188,7 @@ const contactForm = () => {
                       name="message"
                     />
                   </div>
-                  <button className="w-full px-6 py-3 mt-6 text-sm font-medium tracking-wide capitalize transition-colors duration-300 transform  text-white hover:text-yellow-50 bg-gradient-to-r  from-pink-500 to-purple-500 hover:from-cyan-600 hover:to-blue-600 rounded-full">
+                  <button className="mt-6 rounded-full border-2 border-white px-4 py-2 xl:px-4 text-white transition-colors hover:bg-white hover:text-cyan-500">
                     get in touch
                   </button>
                 </form>

@@ -3,7 +3,7 @@ import Link from "next/link";
 const Error = () => {
   return (
     <>
-      <div className="relative xl:h-screen overflow-hidden bg-gradient-to-br from-cyan-300 to-blue-900">
+      <div className="relative xl:h-screen overflow-hidden bg-[#0a162f]">
         {/* <img src="/yt.png" className="absolute object-cover w-full h-full" /> */}
         <div className="absolute inset-0 bg-black opacity-25"></div>
         <div className="container relative z-10 flex items-center px-6 py-32 mx-auto md:px-12 xl:py-40">

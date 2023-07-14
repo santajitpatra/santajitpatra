@@ -35,7 +35,7 @@ const hero = () => {
               <Link
                 href="/contact"
                 aria-label=""
-                className="btn-primary "
+                className="btn-primary"
               >
                 Contact Us
               </Link>

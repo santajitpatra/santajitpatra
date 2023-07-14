@@ -42,11 +42,11 @@ a {
 
 @layer components {
   .btn-primary {
-      @apply mb-3 inline-flex h-12 w-full items-center justify-center px-6 font-medium tracking-wide shadow-md transition duration-200 focus:outline-none md:mr-4 md:mb-0 md:w-auto text-white hover:text-yellow-50 bg-gradient-to-r  from-pink-500 to-purple-500 hover:from-cyan-600 hover:to-blue-600 rounded-full;
+      @apply mb-3 inline-flex h-12 w-full items-center justify-center px-6 font-medium tracking-wide shadow-md transition duration-200 focus:outline-none md:mr-4 md:mb-0 md:w-auto text-white hover:text-cyan-500 bg-gradient-to-r  from-violet-600 to-purple-500 hover:from-gray-50 hover:to-gray-50 rounded-full;
   };
 
   .BG {
-   @apply text-white bg-gradient-to-tr  from-blue-500 to-purple-500
+   @apply text-white bg-[#0a162f]
   }
 }
 

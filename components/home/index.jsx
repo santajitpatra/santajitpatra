@@ -1,12 +1,18 @@
-import React from 'react'
-import { Hero, Card, CTA, ContactForm, ServicesOffer, Whatsapp} from "../../components";
-import { Navbar, Footer} from "../layouts";
-
+import React from "react";
+import {
+  Hero,
+  Card,
+  CTA,
+  ContactForm,
+  ServicesOffer,
+  Whatsapp,
+} from "../../components";
+import { Navbar, Footer } from "../layouts";
 
 const index = () => {
   return (
     <div>
-            <div className="flex min-h-screen w-screen flex-col bg-gradient-to-tr  from-blue-500 to-purple-500">
+      <div className="flex min-h-screen w-screen flex-col BG">
         <Navbar />
         <Hero />
         <Card />
@@ -23,7 +29,7 @@ const index = () => {
         <Whatsapp />
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default index
+export default index;

@@ -4,9 +4,9 @@ import Image from "next/image";
 const ServicesCTA = () => {
   return (
  <div className="relative mx-auto w-full pb-32 pt-8 text-black">
-          <div className="absolute inset-0 bottom-56 bg-slate-100" />
+          <div className="absolute inset-0 bottom-56 bg-slate-200" />
           <div className="relative pt-20 mx-auto w-full max-w-screen-xl px-2 text-left sm:px-10">
-            <div className="rounded-xl bg-white shadow-lg shadow-blue-200 lg:flex">
+            <div className="rounded-xl bg-slate-50 shadow-lg shadow-violet-500 lg:flex">
               <div className="flex flex-col p-4 pb-6 sm:p-10 sm:pt-14 lg:w-2/5">
                 <div className="flex-auto">
                   <h2 className="text-2xl font-black">
