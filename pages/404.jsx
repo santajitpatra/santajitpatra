@@ -17,10 +17,7 @@ const Error = () => {
               changed or is temporarily unavailable.
             </p>
 
-            <Link
-              href="/home"
-              className="text-center text-lg text-white hover:text-yellow-50 bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 rounded-full mx-96 py-3 px-3 w-52"
-            >
+            <Link href="/" className="btn-primary">
               Back To Homepage
             </Link>
           </div>

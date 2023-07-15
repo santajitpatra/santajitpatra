@@ -1,7 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import Link from "next/link";
-import { Navbar, Hero, Footer, Card } from "../../components";
+import { Navbar, Footer } from "../../components";
 
 const index = () => {
   return (
@@ -13,9 +13,9 @@ const index = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className="flex min-h-screen w-screen flex-col bg-gradient-to-tr  from-blue-500 to-purple-500">
+      <div className="flex min-h-screen w-screen flex-col bg-[#0a162f]">
         <Navbar />
-        <div className="relative h-screen overflow-hidden bg-gradient-to-br from-cyan-300 to-blue-900">
+        <div className="relative h-screen overflow-hidden ">
           {/* <img src="/yt.png" className="absolute object-cover w-full h-full" /> */}
           <div className="absolute inset-0 bg-black opacity-25"></div>
           <div className="container relative z-10 flex items-center px-6 py-32 mx-auto md:px-12 xl:py-40">
@@ -27,10 +27,7 @@ const index = () => {
                 No blog available right now.
               </p>
 
-              <Link
-                href="/home"
-                className="mb-3 inline-flex h-12 w-full items-center justify-center px-6 font-medium tracking-wide shadow-md transition duration-200 focus:outline-none md:mr-4 md:mb-0 md:w-auto text-white hover:text-yellow-50 bg-gradient-to-r  from-pink-500 to-purple-500 hover:from-cyan-600 hover:to-blue-600 rounded-full"
-              >
+              <Link href="/" className="btn-primary">
                 Back To Homepage
               </Link>
             </div>

@@ -19,7 +19,7 @@ function Project({
           }
           alt="Picture of the author"
           width={500}
-          height={500}
+          height={380}
           objectFit="cover"
           className="rounded-2xl"
         />

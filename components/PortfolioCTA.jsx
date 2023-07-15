@@ -1,7 +1,7 @@
 
 const PortfolioCTA = () => {
   return (
-    <div className="xl:-mb-[5.4rem] md:-mb-[4.7rem]  sm:-mb-40  -mb-[6.9rem]  bg-[url('../assets/images/services.jpg')] bg-no-repeat bg-cover bg-center relative overflow-hidden w-full">
+    <div className="xl:-mb-[5.4rem] md:-mb-[4.7rem]  sm:-mb-40  -mb-[6.9rem]  bg-[url('https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80')] bg-no-repeat bg-cover bg-center relative overflow-hidden w-full">
       <div className="relative py-10 text-white sm:py-16 lg:py-24 BGCTA-blur">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="text-center">

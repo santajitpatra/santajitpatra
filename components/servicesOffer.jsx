@@ -1,6 +1,34 @@
 import React from "react";
 import Image from "next/image";
-import {webSvg }from "@/constants/images"
+import { webSvg } from "@/constants/images";
+
+const servicesData = [
+  {
+    service: "Web Designing & Development",
+    details:
+      "Professional website creation with personalized design and coding.",
+  },
+  {
+    service: "Digital Marketing Services",
+    details:
+      "Boost your online presence and drive sales through digital advertising.",
+  },
+  {
+    service: "Graphic Design",
+    details:
+      "Eye-catching and effective graphic design solutions for your  brand.",
+  },
+  {
+    service: "Virtual Assistant",
+    details:
+      "Streamline your workload with professional and efficient virtual assistance.",
+  },
+  {
+    service: "Social Media Management",
+    details:
+      "Manage your social media profiles to reach your target audience and increase engagement.",
+  },
+];
 
 const servicesOffer = () => {
   return (
@@ -14,98 +42,28 @@ const servicesOffer = () => {
               ACHIEVE YOUR GOALS
             </h2>
           </div>
-      
-          <div className="relative w-[21rem] lg:w-72 xl:w-96 h-56 p-4 overflow-hidden bg-white shadow-lg rounded-2xl px-4 pt-14 pb-8 TA">
-            <Image
-              alt="moto"
-              src={webSvg}
-              className="absolute w-40 h-40 mb-4 rounded-full -right-20 -bottom-8"
-              width={500}
-              height={500}
-            />
-            <div className="w-4/6">
-              <p className="mb-2 text-xl font-medium text-gray-800">
-                Web Designing & Development
-              </p>
-              <p className="text-sm text-gray-400">
-                Professional website creation with personalized design and
-                coding.{" "}
-              </p>
-            </div>
-          </div>
-
-          <div className="relative w-[21rem] lg:w-72 xl:w-96 h-56 p-4 overflow-hidden bg-white shadow-lg rounded-2xl px-4 pt-14 pb-8 TA">
-            <Image
-              alt="moto"
-              src={webSvg}
-              className="absolute w-40 h-40 mb-4 rounded-full -right-20 -bottom-8"
-              width={500}
-              height={500}
-            />
-            <div className="w-4/6">
-              <p className="mb-2 text-xl font-medium text-gray-800">
-                Digital Marketing Services
-              </p>
-              <p className="text-sm text-gray-400">
-                Boost your online presence and drive sales through digital
-                advertising.{" "}
-              </p>
-            </div>
-          </div>
-          <div className="relative w-[21rem] lg:w-72 xl:w-96 h-56 p-4 overflow-hidden bg-white shadow-lg rounded-2xl px-4 pt-14 pb-8 TA">
-            <Image
-              alt="moto"
-              src={webSvg}
-              className="absolute w-40 h-40 mb-4 rounded-full -right-20 -bottom-8"
-              width={500}
-              height={500}
-            />
-            <div className="w-4/6">
-              <p className="mb-2 text-xl font-medium text-gray-800">
-                Graphic Design
-              </p>
-              <p className="text-sm text-gray-400">
-                Eye-catching and effective graphic design solutions for your
-                brand.{" "}
-              </p>
-            </div>
-          </div>
-          <div className="relative w-[21rem] lg:w-72 xl:w-96 h-56 p-4 overflow-hidden bg-white shadow-lg rounded-2xl px-4 pt-14 pb-8 TA">
-            <Image
-              alt="moto"
-              src={webSvg}
-              className="absolute w-40 h-40 mb-4 rounded-full -right-20 -bottom-8"
-              width={500}
-              height={500}
-            />
-            <div className="w-4/6">
-              <p className="mb-2 text-xl font-medium text-gray-800">
-                Virtual Assistant
-              </p>
-              <p className="text-sm text-gray-400">
-                Streamline your workload with professional and efficient virtual
-                assistance.{" "}
-              </p>
-            </div>
-          </div>
-          <div className="relative w-[21rem] lg:w-72 xl:w-96 h-56 p-4 overflow-hidden bg-white shadow-lg rounded-2xl px-4 pt-14 pb-8 TA">
-            <Image
-              alt="moto"
-              src={webSvg}
-              className="absolute w-40 h-40 mb-4 rounded-full -right-20 -bottom-8"
-              width={500}
-              height={500}
-            />
-            <div className="w-4/6">
-              <p className="mb-2 text-xl font-medium text-gray-800">
-                Social Media Management
-              </p>
-              <p className="text-sm text-gray-400">
-                Manage your social media profiles to reach your target audience
-                and increase engagement.{" "}
-              </p>
-            </div>
-          </div>
+          {servicesData.map((data) => {
+            return (
+              <div
+                key={data.details}
+                className="relative w-[21rem] lg:w-72 xl:w-96 h-56 p-4 overflow-hidden bg-white shadow-lg rounded-2xl px-4 pt-14 pb-8 TA"
+              >
+                <Image
+                  alt="moto"
+                  src={webSvg}
+                  className="absolute w-40 h-40 mb-4 rounded-full -right-20 -bottom-8"
+                  width={500}
+                  height={500}
+                />
+                <div className="w-4/6">
+                  <p className="mb-2 text-xl font-medium text-gray-800">
+                    {data.service}
+                  </p>
+                  <p className="text-sm text-gray-400">{data.details}</p>
+                </div>
+              </div>
+            );
+          })}
         </div>
       </section>
     </div>

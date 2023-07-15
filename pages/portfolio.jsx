@@ -1,28 +1,9 @@
 import React from "react";
 import Head from "next/head";
-import {
-  PortfolioRight,
-  PortfolioLeft,
-  Whatsapp,
-  PortfolioCTA,
-} from "../components";
+import { Whatsapp, PortfolioCTA } from "../components";
 import { Navbar, Header, Footer } from "../components/layouts";
-import {
-  project1,
-  project2,
-  project3,
-  project4,
-  project5,
-  project6,
-  project7,
-  project8,
-  project9,
-  project10,
-} from "@/constants/images";
 import workDB from "../constants/workdb";
 import Project from "../components/Project";
-
-
 
 const portfolio = () => {
   return (

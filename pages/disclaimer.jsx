@@ -1,4 +1,3 @@
-import React from "react";
 import { Navbar, Footer} from "../components/layouts";
 
 const disclaimer = () => {
@@ -23,10 +22,10 @@ const disclaimer = () => {
           }
         `}
       </style>
-      <div className="bg-gradient-to-tl  from-cyan-500 to-blue-700">
+      <div className="BG">
         <Navbar />
       </div>
-      <div className="p-16">
+      <div className="p-16 ">
         <h2 className="text-center hading">Disclaimer</h2>
         <h2>Introduction</h2>
         <p>

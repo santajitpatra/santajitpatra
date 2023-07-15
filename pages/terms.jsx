@@ -23,7 +23,7 @@ const terms = () => {
           }
         `}
       </style>
-      <div className="bg-gradient-to-tl  from-cyan-500 to-blue-700">
+      <div className="BG">
         <Navbar />
       </div>
       <div className="p-16">

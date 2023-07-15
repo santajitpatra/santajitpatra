@@ -1,4 +1,3 @@
-import React from "react";
 import { Navbar, Footer} from "../components/layouts";
 
 const privacy = () => {
@@ -23,7 +22,7 @@ const privacy = () => {
           }
         `}
       </style>
-      <div className="bg-gradient-to-tl  from-cyan-500 to-blue-700">
+      <div className="BG">
         <Navbar />
       </div>
       <div className="p-16">

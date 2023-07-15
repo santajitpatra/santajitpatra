@@ -1,8 +1,8 @@
 import Head from "next/head";
 import { AboutDescription, Whatsapp } from "../components";
 import { Navbar, Header, Footer } from "../components/layouts";
-// import { websiteDev } from "../constants/images";
-
+import DownloadCV from "../components/DownloadCV";
+import AboutInfo from "../components/AboutInfo";
 
 const about = () => {
   return (
@@ -16,8 +16,13 @@ const about = () => {
 
       <div className="flex min-h-screen w-screen flex-col text-white  BG">
         <Navbar />
-        <Header title="About" bg='url("https://images.pexels.com/photos/3862132/pexels-photo-3862132.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")' />
+        <Header
+          title="About"
+          bg='url("https://images.pexels.com/photos/3862132/pexels-photo-3862132.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")'
+        />
         <AboutDescription />
+        <AboutInfo/>
+        <DownloadCV />
         <Footer />
         <Whatsapp />
       </div>
