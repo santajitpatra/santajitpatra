@@ -18,7 +18,7 @@ const portfolio = () => {
         <Navbar />
         <Header
           title="Portfolio"
-          bg='url("https://images.pexels.com/photos/943096/pexels-photo-943096.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")'
+          bg='url("https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80")'
         />
 
         <div className="container my-24 px-6 mx-auto">

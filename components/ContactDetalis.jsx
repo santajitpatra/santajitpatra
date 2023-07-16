@@ -30,7 +30,7 @@ function ContactDetalis() {
             />
           </svg>
           <span className="mx-2 text-white truncate w-72">
-            Amta, Howrah-711401. West Bengal, India.
+            Howrah, West Bengal, India - 711401
           </span>
         </p>
         <p className="flex items-start -mx-2">

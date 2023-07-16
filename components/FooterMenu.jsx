@@ -1,6 +1,9 @@
 import Link from "next/link";
 import Image from "next/image";
-import { appStore, playStore } from "@/constants/images";
+import appStore from "@/assets/images/appstore-free-img.png";
+import playStore from "@/assets/images/playstore-free-img.png";
+
+
 const FooterMenu = () => {
   return (
     <div className="mx-auto grid max-w-screen-xl gap-y-8 gap-x-12 px-4 py-10 md:grid-cols-2 xl:grid-cols-4 xl:px-10">

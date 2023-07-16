@@ -1,7 +1,6 @@
-import React from 'react'
 
 const FooterLink = () => {
-    const currentYear = new Date().getFullYear();
+  const currentYear = new Date().getFullYear();
 
   return (
     <div className="">
@@ -118,6 +117,6 @@ const FooterLink = () => {
       </div>
     </div>
   );
-}
+};
 
-export default FooterLink
+export default FooterLink;

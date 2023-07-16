@@ -9,7 +9,6 @@ import ServicesOffer from './servicesOffer';
 import Performance from './performance';
 import Header from './layouts/header';
 import GetInTuch from './getInTuch';
-import AboutDescription from './aboutDescription';
 import Whatsapp from './Whatsapp';
 import ServicesCTA from './ServicesCTA';
 import PortfolioCTA from './PortfolioCTA';
@@ -27,7 +26,6 @@ ServicesOffer,
 Performance,
 Header,
 GetInTuch,
-AboutDescription,
 Whatsapp,
 ServicesCTA,
 PortfolioCTA,

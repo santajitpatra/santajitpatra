@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { AboutDescription, Whatsapp } from "../components";
+import {  Whatsapp } from "../components";
 import { Navbar, Header, Footer } from "../components/layouts";
 import DownloadCV from "../components/DownloadCV";
 import AboutInfo from "../components/AboutInfo";
@@ -18,10 +18,9 @@ const about = () => {
         <Navbar />
         <Header
           title="About"
-          bg='url("https://images.pexels.com/photos/3862132/pexels-photo-3862132.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")'
+          bg='url("https://images.unsplash.com/photo-1523289333742-be1143f6b766?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80")'
         />
-        <AboutDescription />
-        <AboutInfo/>
+        <AboutInfo />
         <DownloadCV />
         <Footer />
         <Whatsapp />

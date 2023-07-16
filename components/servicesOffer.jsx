@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import { webSvg } from "@/constants/images";
+import webSvg from "@/assets/svg/Web_devices.svg";
 
 const servicesData = [
   {
@@ -37,7 +37,7 @@ const servicesOffer = () => {
         <div className="mx-auto grid max-w-lg gap-x-8 gap-y-12 px-4 py-32 md:max-w-screen-xl md:grid-cols-2 md:px-8 lg:grid-cols-3 overflow-y-hidden">
           <div className="p-12">
             <h2 className="text-3xl font-medium text-white">
-              WE HELP YOU TO
+              I HELP YOU TO
               <br />
               ACHIEVE YOUR GOALS
             </h2>

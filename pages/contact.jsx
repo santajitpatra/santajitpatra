@@ -14,11 +14,14 @@ const contact = () => {
       </Head>
       <div className="flex min-h-screen w-screen flex-col BG">
         <Navbar />
-        <Header title="Contact" bg='url("https://images.unsplash.com/photo-1525182008055-f88b95ff7980?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80")' />
+        <Header
+          title="Contact"
+          bg='url("https://images.unsplash.com/photo-1611746869696-d09bce200020?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80")'
+        />
         <ContactForm />
         <Map />
-      <Footer />
-      <Whatsapp />
+        <Footer />
+        <Whatsapp />
       </div>
     </>
   );

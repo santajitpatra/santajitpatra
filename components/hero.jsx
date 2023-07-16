@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { seox } from "@/constants/images";
+import  seox  from "@/assets/images/seox.png";
 
 const hero = () => {
   return (
@@ -17,12 +17,12 @@ const hero = () => {
               <h2 className="mb-6 max-w-lg font-sans text-3xl font-bold leading-snug tracking-tight text-white sm:text-5xl sm:leading-snug">
                 Santajit's
                 <span className="my-1 inline-block rounded bg-white px-2 text-violet-600">
-                New
+                Work
                 </span>
-                <span className="text-cyan-300">Website</span>
+                <span className="text-cyan-300">Place</span>
               </h2>
               <p className="text-base text-gray-200">
-              "Elevate your online presence with our expert web development services. From stunning designs to custom functionality, we'll help you stand out in a crowded digital world. Let our team help you achieve your online goals and drive results with a website that engages and converts."
+              "Elevate your online presence with my expert web development services. From stunning designs to custom functionality, I'll help you stand out in a crowded digital world. Let Me help you achieve your online goals and drive results with a website that engages and converts."
               </p>
             </div>
             <div className="flex flex-col items-center md:flex-row">

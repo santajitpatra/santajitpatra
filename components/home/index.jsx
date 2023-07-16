@@ -18,7 +18,7 @@ const index = () => {
         <Card />
         <CTA />
         <h2 className="mt-12 text-center font-sans text-5xl font-bold text-white">
-          Our Services
+          My Services
         </h2>
         <ServicesOffer />
         <h2 className="text-center font-sans text-5xl font-bold text-white">

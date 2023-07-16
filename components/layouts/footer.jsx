@@ -1,8 +1,7 @@
-import FooterLink from "../FooterLink"
+import FooterLink from "../FooterLink";
 import FooterMenu from "../FooterMenu";
 
 const footer = () => {
-
   return (
     <>
       <div className="container mx-auto px-6 mb-12 md:px-12 xl:px-32">
@@ -23,9 +22,8 @@ const footer = () => {
       </div>
 
       <div className="pt-20 bg-[#0f2146] text-white">
-
-<FooterMenu/>
-        <FooterLink/>
+        <FooterMenu />
+        <FooterLink />
       </div>
     </>
   );

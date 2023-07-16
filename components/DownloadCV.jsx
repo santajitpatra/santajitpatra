@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import React from 'react'
 
 function DownloadCV() {
   return (
@@ -14,7 +13,10 @@ function DownloadCV() {
         my CV provides a detailed overview of my skills and experience. <br />
         Click here to download my CV and learn more about me.
       </p>
-      <Link href="/" className="btn-primary">
+      <Link
+        href="Santajit_Patra_CV.pdf"
+        className="btn-primary"
+      >
         Download CV
       </Link>
     </section>

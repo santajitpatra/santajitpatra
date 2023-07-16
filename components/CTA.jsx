@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from 'next/image'
-import { santajit } from "@/constants/images";
+import  santajit  from "@/assets/images/santajit-patra-11.jpeg";
 
 
 const CTA = () => {
@@ -12,10 +12,10 @@ const CTA = () => {
             <h2 className="text-2xl font-bold">Let's talk about business</h2>
             <p className="mt-4 text-lg">
               "Let's talk about business and the opportunities for growth it
-              presents. We believe in empowering businesses with expert web
-              development and digital marketing solutions. We want to help you
+              presents. I believe in empowering businesses with expert web
+              development and digital marketing solutions. I want to help you
               take your business to the next level, let's start the conversation
-              today."{" "}
+              today."
             </p>
             <Link href="/contact">
               <button

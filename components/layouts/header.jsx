@@ -10,7 +10,7 @@ const header = (props) => {
             backgroundPosition: "50%",
             backgroundImage: `${props.bg}`,
             height: 500,
-            // backgroundImage: 'url("./about.jpg")',
+            objectFit: "cover"
           }}
         />
         <div className="container mx-auto px-6 md:px-12 xl:px-32">

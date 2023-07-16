@@ -21,7 +21,7 @@ const performance = () => {
                       75%
                     </h3>
                     <span className="ml-3 text-base font-medium capitalize">
-                      Data Entry & Management{" "}
+                      Data Entry & Management
                     </span>
                   </div>
                 </div>
