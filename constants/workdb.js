@@ -20,9 +20,9 @@ const workDB = [
     buttonSource: "https://github.com/santajitpatra/hotflix.git",
   },
   {
-    title: "Creating the Ecommerce Website 'Blackhole'",
+    title: "Blackhole: Your One-Stop Shop for the Strange and Unusual",
     description:
-      "I recently completed a project to create a fully functional ecommerce website, 'Blackhole'. The project involved me designing and developing the website from the ground up, including the back-end and front-end. This project has enabled me to become more proficient with web development, while also providing a solid example of my ability to create a reliable and user-friendly website.",
+      "Blackhole is the ecommerce website for the adventurous shopper. We offer a wide variety of hard-to-find products, from the bizarre to the beautiful. Whether you're looking for a pet rock, a unicorn horn, or a genuine piece of moon rock, we've got you covered. Blackhole is the perfect place to find unique gifts for the people in your life. Our products are sure to impress, and they're guaranteed to make a lasting impression.Blackhole is more than just an ecommerce website. It's a portal to another world, where anything is possible. So what are you waiting for? Come on in and explore the Blackhole.",
     name: "Santajit Patra",
     about: "Freelance web developer",
     image: "/blackhole.png",
