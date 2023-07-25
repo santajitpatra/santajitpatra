@@ -1,9 +1,17 @@
 import Link from "next/link";
+import Authenticate from "../Authenticate";
+
+const menu = [
+  { title: "Home", link: "/" },
+  { title: "About", link: "/about" },
+  { title: "Portfolio", link: "/portfolio" },
+  { title: "Services", link: "/services" },
+];
 
 const navbar = () => {
   return (
     <div>
-      <header className="relative flex w-screen max-w-screen-xl flex-col overflow-hidden px-4 py-4 text-white md:mx-auto md:flex-row md:items-center">
+      <header className="relative flex w-screen max-w-screen-xl flex-col overflow-hidden sm:px-4 lg:px-0 py-4 text-white md:mx-auto md:flex-row md:items-center">
         <Link
           href="/"
           className="flex cursor-pointer items-center whitespace-nowrap text-2xl font-black"
@@ -60,19 +68,18 @@ const navbar = () => {
           className="flex max-h-0 w-full flex-col items-center justify-between overflow-hidden transition-all peer-checked:mt-8 peer-checked:max-h-56 md:ml-24 md:max-h-full md:flex-row md:items-start"
         >
           <ul className="flex flex-col items-center space-y-2 md:ml-auto md:flex-row md:space-y-0">
-            <li className="xl:mr-12 md:mr-6 hover:text-cyan-300">
-              <Link href="/">Home</Link>
+            {menu.map((menuItem) => (
+              <li
+                key={menuItem.title}
+                className="xl:mr-8 md:mr-6 hover:text-cyan-300"
+              >
+                <Link href={menuItem.link}>{menuItem.title}</Link>
+              </li>
+            ))}
+            <li className="xl:mr-8 md:mr-6 hover:text-cyan-300">
+              <Authenticate />
             </li>
-            <li className="xl:mr-12 md:mr-6 hover:text-cyan-300">
-              <Link href="/about">About</Link>
-            </li>
-            <li className="xl:mr-12 md:mr-6 hover:text-cyan-300">
-              <Link href="/portfolio">Portfolio</Link>
-            </li>
-            <li className="xl:mr-12 md:mr-6 hover:text-cyan-300">
-              <Link href="/services">Services</Link>
-            </li>
-            <li className="xl:mr-12 md:mr-6 hover:text-cyan-300">
+            <li className="xl:mr-8 md:mr-6 hover:text-cyan-300">
               <Link href="/contact">
                 <button className="rounded-full border-2 border-white px-3 py-1 xl:px-4 text-white transition-colors hover:bg-white hover:text-cyan-500">
                   Contact
