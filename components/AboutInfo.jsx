@@ -19,7 +19,7 @@ function AboutInfo() {
             <h3 className="text-3xl text-cyan-500 font-bold leading-none mb-3">
               Who am I ?
             </h3>
-            <p className=" mb-8">
+            <p className="TEXTCOLOR mb-8">
               I am a full stack developer with years of experience in building
               web applications. I have a strong understanding of both the
               front-end and back-end of web development, and I am proficient in
@@ -34,19 +34,20 @@ function AboutInfo() {
         </div>
         <div className="flex flex-wrap flex-col-reverse sm:flex-row">
           <div className="w-full sm:w-1/2 p-6 mt-6">
-            <div className="align-middle">
+            <div className="align-middle TEXTCOLOR">
               <h3 className="text-3xl text-cyan-500 font-bold leading-none mb-3">
-                What I can do for you ?
+                What am I good at ?
               </h3>
-              <p className=" mb-8">
+              <p className=" mb-8 text-sm">
                 I have a strong understanding of the following skills:
               </p>
               <ul className="space-y-1">
+                <li>Programming Languages: JavaScript, TypeScript</li>
                 <li>
                   Front-end development: HTML, CSS, JavaScript, React, Vue.js
                 </li>
                 <li>Back-end development: Node.js, express.js, PHP </li>
-                <li> Databases: MySQL, MongoDB</li>
+                <li>Databases: MySQL, PostgreSQL, MongoDB</li>
                 <li>Version control: Git, GitHub</li>
                 <li>Web hosting: AWS, Google Cloud Platform and other</li>
                 <li>

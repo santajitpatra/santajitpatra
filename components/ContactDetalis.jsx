@@ -5,10 +5,10 @@ function ContactDetalis() {
       <h2 className="text-3xl font-semibold capitalize lg:text-4xl">
         Let's talk
       </h2>
-      <p className="max-w-xl mt-6">
+      <p className="max-w-xl mt-6 TEXTCOLOR">
         Ask us everything and we would love to hear from you
       </p>
-      <div className="mt-6 space-y-8 md:mt-8">
+      <div className="mt-6 space-y-8 md:mt-8 TEXTCOLOR">
         <p className="flex items-start -mx-2">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -31,7 +31,7 @@ function ContactDetalis() {
           </svg>
           <a
             href="https://goo.gl/maps/FX2LPYCxahSpCQAs8"
-            className="mx-2 text-white truncate w-72"
+            className="mx-2  truncate w-72"
           >
             Howrah, West Bengal, India - 711401
           </a>
@@ -39,7 +39,7 @@ function ContactDetalis() {
         <p className="flex items-start -mx-2">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            className="w-6 h-6 mx-2 text-white"
+            className="w-6 h-6 mx-2 "
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"
@@ -51,14 +51,14 @@ function ContactDetalis() {
               d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
             />
           </svg>
-          <a href="tel:+919134504611" className="mx-2 text-white truncate w-72">
+          <a href="tel:+919134504611" className="mx-2  truncate w-72">
             +91 9134504611
           </a>
         </p>
         <p className="flex items-start -mx-2">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            className="w-6 h-6 mx-2 text-white"
+            className="w-6 h-6 mx-2 "
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"
@@ -72,21 +72,21 @@ function ContactDetalis() {
           </svg>
           <a
             href="mailto:business.santajitpatra@gmail.com"
-            className="mx-2 text-white truncate w-72"
+            className="mx-2  truncate w-72"
           >
             business.santajitpatra@gmail.com
           </a>
         </p>
       </div>
       <div className="mt-6 md:mt-8">
-        <h3 className="text-gray-300 ">Follow us</h3>
+        <h3 className="TEXTCOLOR">Follow us</h3>
         <div className="flex mt-4 -mx-1.5 ">
           <a
-            className="mx-1.5 text-white transition-colors duration-300 transform hover:text-blue-500"
+            className="mx-1.5  transition-colors duration-300 transform hover:text-blue-500"
             href="https://twitter.com/SantajitPatra"
           >
             <svg
-              className="w-10 h-10 fill-current"
+              className="w-10 h-10 fill-current TEXTCOLOR"
               viewBox="0 0 24 24"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
@@ -95,11 +95,11 @@ function ContactDetalis() {
             </svg>
           </a>
           <a
-            className="mx-1.5 text-white transition-colors duration-300 transform hover:text-blue-500"
+            className="mx-1.5  transition-colors duration-300 transform hover:text-blue-500"
             href="https://www.linkedin.com/in/santajit-patra-9136651b4/"
           >
             <svg
-              className="w-8 h-8"
+              className="w-8 h-8 TEXTCOLOR"
               viewBox="0 0 24 24"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
@@ -116,11 +116,11 @@ function ContactDetalis() {
             </svg>
           </a>
           <a
-            className="mx-1.5 text-white transition-colors duration-300 transform hover:text-blue-500"
+            className="mx-1.5  transition-colors duration-300 transform hover:text-blue-500"
             href="https://www.facebook.com/Santajit-Patra-191090504774038"
           >
             <svg
-              className="w-8 h-8"
+              className="w-8 h-8 TEXTCOLOR"
               viewBox="0 0 24 24"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
@@ -132,11 +132,11 @@ function ContactDetalis() {
             </svg>
           </a>
           <a
-            className="mx-1.5 text-white transition-colors duration-300 transform hover:text-blue-500"
+            className="mx-1.5  transition-colors duration-300 transform hover:text-blue-500"
             href="https://www.instagram.com/santajitpatra/"
           >
             <svg
-              className="w-8 h-8"
+              className="w-8 h-8 TEXTCOLOR"
               viewBox="0 0 24 24"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"

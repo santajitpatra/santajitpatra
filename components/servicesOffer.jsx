@@ -56,10 +56,10 @@ const servicesOffer = () => {
                   height={500}
                 />
                 <div className="w-4/6">
-                  <p className="mb-2 text-xl font-medium text-gray-800">
+                  <p className="mb-2 text-xl font-medium text-slate-800">
                     {data.service}
                   </p>
-                  <p className="text-sm text-gray-400">{data.details}</p>
+                  <p className="text-sm TEXTCOLOR">{data.details}</p>
                 </div>
               </div>
             );

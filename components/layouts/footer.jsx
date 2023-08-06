@@ -21,7 +21,7 @@ const footer = () => {
         </div>
       </div>
 
-      <div className="pt-20 bg-[#0f2146] text-white">
+      <div className="pt-20 bg-[#0f2146] ">
         <FooterMenu />
         <FooterLink />
       </div>

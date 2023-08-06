@@ -3,7 +3,7 @@ const FooterLink = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <div className="">
+    <div className="text-slate-400">
       <div className="mx-auto flex max-w-screen-xl flex-col gap-y-4 px-4 py-3 text-center sm:flex-row sm:justify-between sm:text-left items-center">
         <div className="">
           © {currentYear} SantajitPatra | All Rights Reserved

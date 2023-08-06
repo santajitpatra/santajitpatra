@@ -10,33 +10,30 @@ const hero = () => {
           <div className="mb-10 lg:mb-0 lg:max-w-lg lg:pr-5">
             <div className="mb-6 max-w-xl">
               <div>
-                <p className="bg-teal-accent-400 mb-2 inline-block rounded-full px-3 text-xs font-semibold uppercase tracking-wider text-gray-50">
+                <p className="bg-teal-accent-400 mb-2 inline-block rounded-full px-3 text-xs font-semibold uppercase tracking-wider text-cyan-300">
                   New and improved
                 </p>
               </div>
               <h2 className="mb-6 max-w-lg font-sans text-3xl font-bold leading-snug tracking-tight text-white sm:text-5xl sm:leading-snug">
                 Santajit's
                 <span className="my-1 inline-block rounded bg-white px-2 text-violet-600">
-                Work
+                  Work
                 </span>
                 <span className="text-cyan-300">Place</span>
               </h2>
-              <p className="text-base text-gray-200">
-              "Elevate your online presence with my expert web development services. From stunning designs to custom functionality, I'll help you stand out in a crowded digital world. Let Me help you achieve your online goals and drive results with a website that engages and converts."
+              <p className="text-base TEXTCOLOR">
+                "Elevate your online presence with my expert web development
+                services. From stunning designs to custom functionality, I'll
+                help you stand out in a crowded digital world. Let Me help you
+                achieve your online goals and drive results with a website that
+                engages and converts."
               </p>
             </div>
             <div className="flex flex-col items-center md:flex-row">
-              <Link
-                href="/about"
-                className="btn-primary "
-              >
+              <Link href="/about" className="btn-primary ">
                 About Us
               </Link>
-              <Link
-                href="/contact"
-                aria-label=""
-                className="btn-primary"
-              >
+              <Link href="/contact" aria-label="" className="btn-primary">
                 Contact Us
               </Link>
             </div>

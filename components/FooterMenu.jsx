@@ -36,7 +36,7 @@ const FooterMenu = () => {
             Santajit<span className="text-cyan-300">Patra</span>
           </span>
         </div>
-        <div className="text-purple-100">
+        <div className="text-slate-400">
           "Expert web development and digital marketing solutions for business
           success."
         </div>
@@ -47,7 +47,7 @@ const FooterMenu = () => {
           <ul className="space-y-3">
             <li>
               <Link
-                className="text-purple-100 hover:text-cyan-300"
+                className="text-slate-400 hover:text-cyan-300"
                 href="/about"
               >
                 About
@@ -55,7 +55,7 @@ const FooterMenu = () => {
             </li>
             <li>
               <Link
-                className="text-purple-100 hover:text-cyan-300"
+                className="text-slate-400 hover:text-cyan-300"
                 href="/blog"
               >
                 Blog
@@ -63,7 +63,7 @@ const FooterMenu = () => {
             </li>
             <li>
               <Link
-                className="text-purple-100 hover:text-cyan-300"
+                className="text-slate-400 hover:text-cyan-300"
                 href="services"
               >
                 Services
@@ -71,7 +71,7 @@ const FooterMenu = () => {
             </li>
             <li>
               <Link
-                className="text-purple-100 hover:text-cyan-300"
+                className="text-slate-400 hover:text-cyan-300"
                 href="contact"
               >
                 Contact
@@ -86,7 +86,7 @@ const FooterMenu = () => {
           <ul className="space-y-3">
             <li>
               <Link
-                className="text-purple-100 hover:text-cyan-300"
+                className="text-slate-400 hover:text-cyan-300"
                 href="terms"
               >
                 Terms & Conditions
@@ -94,7 +94,7 @@ const FooterMenu = () => {
             </li>
             <li>
               <Link
-                className="text-purple-100 hover:text-cyan-300"
+                className="text-slate-400 hover:text-cyan-300"
                 href="privacy"
               >
                 Privacy Policy
@@ -102,7 +102,7 @@ const FooterMenu = () => {
             </li>
             <li>
               <Link
-                className="text-purple-100 hover:text-cyan-300"
+                className="text-slate-400 hover:text-cyan-300"
                 href="disclaimer"
               >
                 Disclaimer
@@ -110,7 +110,7 @@ const FooterMenu = () => {
             </li>
             <li>
               <Link
-                className="text-purple-100 hover:text-cyan-300"
+                className="text-slate-400 hover:text-cyan-300"
                 href="sitemap"
               >
                 sitemap

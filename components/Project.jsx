@@ -25,10 +25,10 @@ function Project({
         />
       </div>
       <div className="flex flex-col flex-grow w-5/6 pl-5 mt-5 md:mt-0">
-        <h3 className="text-2xl text-gray-700">{title}</h3>
-        <p className="text-sm text-gray-700 mt-5 line-clamp-2">{description}</p>
-        <h4 className="mt-6 text-lg text-gray-700">{name}</h4>
-        <p className="text-sm text-gray-700 mt-5">{about}</p>{" "}
+        <h3 className="text-2xl text-slate-700 font-semibold">{title}</h3>
+        <p className="text-sm TEXTCOLOR mt-5 line-clamp-2">{description}</p>
+        <h4 className="mt-6 text-lg font-medium text-slate-500">{name}</h4>
+        <p className="text-sm TEXTCOLOR mt-5">{about}</p>{" "}
         <div className=" border-b w-10 pt-2" />
         <div className=" flex justify-between md:justify-end items-end pt-12  flex-col sm:flex-row">
           <a

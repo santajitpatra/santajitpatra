@@ -14,7 +14,7 @@ function CardMap({ title, description, type, image, button }) {
       <div className="w-full  p-4">
         <p className="text-md font-medium text-green-500">{type}</p>
         <p className="mb-2 text-xl font-medium text-gray-600">{title} </p>
-        <p className="text-md font-light text-gray-500 line-clamp-3">
+        <p className="text-md font-light line-clamp-3 text-slate-700">
           {description}
         </p>
         <div className="justify-center mt-4 flex flex-wrap items-center">

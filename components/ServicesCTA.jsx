@@ -8,24 +8,24 @@ const ServicesCTA = () => {
         <div className="rounded-xl bg-slate-50 shadow-lg shadow-violet-500 lg:flex">
           <div className="flex flex-col p-4 pb-6 sm:p-10 sm:pt-14 lg:w-2/5">
             <div className="flex-auto">
-              <h2 className="text-2xl font-black">
+              <h2 className="text-2xl font-black text-slate-800">
                 Keep Track of Your Projects from Start to Finish
               </h2>
-              <p className="pt-4">
+              <p className="pt-4 TEXTCOLOR">
                 Create tasks, track time, share with colleagues, nd share
                 progress in real time.
               </p>
               <div className="mt-6 flex flex-wrap">
-                <p className="m-1 rounded-md text-gray-600 bg-gray-100 px-2 py-1 text-sm">
+                <p className="m-1 rounded-md TEXTCOLOR bg-gray-100 px-2 py-1 text-sm">
                   Web development
                 </p>
-                <p className="m-1 rounded-md text-gray-600 bg-gray-100 px-2 py-1 text-sm">
+                <p className="m-1 rounded-md TEXTCOLOR bg-gray-100 px-2 py-1 text-sm">
                   Graphic design
                 </p>
-                <p className="m-1 rounded-md text-gray-600 bg-gray-100 px-2 py-1 text-sm">
+                <p className="m-1 rounded-md TEXTCOLOR bg-gray-100 px-2 py-1 text-sm">
                   Social media marketing
                 </p>
-                <p className="m-1 rounded-md text-gray-600 bg-gray-100 px-2 py-1 text-sm">
+                <p className="m-1 rounded-md TEXTCOLOR bg-gray-100 px-2 py-1 text-sm">
                   Virtual assistance
                 </p>
               </div>

@@ -1,5 +1,15 @@
 const workDB = [
   {
+    title: "Connector: The World's Social Network",
+    description:
+      "Connector is the world's social network, connecting people from all over the globe. With Connector, you can make new friends, stay in touch with old friends, and share your thoughts and ideas with the world. Whether you're interested in connecting with people who share your interests, learning about different cultures, or just finding someone to chat with, Connector has you covered.",
+    name: "Santajit Patra",
+    about: "Freelance web developer",
+    image: "/connector.png",
+    button: "https://connector0.netlify.app",
+    buttonSource: "https://github.com/santajitpatra/connector",
+  },
+  {
     title: "Waterbnb - The Hotel Booking App That Saves You Time and Money",
     description:
       "The Hotel Booking Web App is a convenient and easy-to-use platform that allows users to search for and book hotels from all over the world. With just a few clicks, users can find the perfect hotel for their needs, based on location, price, amenities, and more.",

@@ -7,19 +7,19 @@ const terms = () => {
       <style jsx>
         {`
           .hading {
-            font-size: 3rem /* 48px */;
+            font-size: 3rem;
             line-height: 1;
           }
 
           h2 {
-            font-size: 1.75rem /* 24px */;
-            line-height: 2.25rem /* 32px */;
+            font-size: 1.75rem;
+            line-height: 2.25rem;
           }
 
           p {
-            font-size: 1.125rem /* 18px */;
-            line-height: 1.75rem /* 28px */;
-            padding: 1rem /* 16px */;
+            font-size: 1.125rem;
+            line-height: 1.75rem;
+            padding: 1rem;
           }
         `}
       </style>
