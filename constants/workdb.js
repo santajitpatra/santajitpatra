@@ -36,7 +36,7 @@ const workDB = [
     name: "Santajit Patra",
     about: "Freelance web developer",
     image: "/blackhole.png",
-    button: "https://blackhole0.netlify.app",
+    button: "https://blackholee.vercel.app",
     buttonSource: "https://github.com/santajitpatra/blackhole.git",
   },
   {
