@@ -2,7 +2,7 @@
 function ContactDetalis() {
   return (
     <div className="lg:w-1/2 lg:mx-6">
-      <h2 className="text-3xl font-semibold capitalize lg:text-4xl">
+      <h2 className="text-3xl font-semibold capitalize lg:text-4xl text-primary-dark">
         Let's talk
       </h2>
       <p className="max-w-xl mt-6 TEXTCOLOR">

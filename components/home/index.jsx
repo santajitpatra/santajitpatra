@@ -17,11 +17,11 @@ const index = () => {
         <Hero />
         <Card />
         <CTA />
-        <h2 className="mt-12 text-center font-sans text-5xl font-bold text-white">
+        <h2 className="mt-12 text-center font-sans text-5xl font-bold text-primary-dark">
           My Services
         </h2>
         <ServicesOffer />
-        <h2 className="text-center font-sans text-5xl font-bold text-white">
+        <h2 className="text-center font-sans text-5xl font-bold text-primary-dark">
           Contact Us
         </h2>
         <ContactForm />

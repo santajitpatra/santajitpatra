@@ -9,7 +9,7 @@ const FooterMenu = () => {
     <div className="mx-auto grid max-w-screen-xl gap-y-8 gap-x-12 px-4 py-10 md:grid-cols-2 xl:grid-cols-4 xl:px-10">
       <div className="max-w-sm">
         <div className="mb-6 flex h-12 items-center space-x-2">
-          <span className="mr-0 text-4xl text-cyan-500">
+          <span className="mr-0 text-4xl text-primary-dark">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="icon icon-tabler icon-tabler-brand-react-native"
@@ -33,7 +33,7 @@ const FooterMenu = () => {
             </svg>
           </span>
           <span className="text-3xl font-bold">
-            Santajit<span className="text-cyan-300">Patra</span>
+            Santajit<span className="text-primary-dark">Patra</span>
           </span>
         </div>
         <div className="text-slate-400">
@@ -54,10 +54,7 @@ const FooterMenu = () => {
               </Link>
             </li>
             <li>
-              <Link
-                className="text-slate-400 hover:text-cyan-300"
-                href="/blog"
-              >
+              <Link className="text-slate-400 hover:text-cyan-300" href="/blog">
                 Blog
               </Link>
             </li>
@@ -85,10 +82,7 @@ const FooterMenu = () => {
         <nav>
           <ul className="space-y-3">
             <li>
-              <Link
-                className="text-slate-400 hover:text-cyan-300"
-                href="terms"
-              >
+              <Link className="text-slate-400 hover:text-cyan-300" href="terms">
                 Terms & Conditions
               </Link>
             </li>

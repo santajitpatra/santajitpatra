@@ -8,7 +8,7 @@ const CTA = () => {
       <div className="mx-auto my-10 w-screen max-w-screen-xl px-10">
         <div className="to flex items-center rounded-3xl bg-gradient-to-r  from-violet-900 to-purple-600 px-8 shadow-lg">
           <div className="my-10 lg:my-8 lg:w-1/2">
-            <h2 className="text-2xl font-bold text-gray-50">
+            <h2 className="text-2xl font-bold text-primary-text">
               Let's talk about business
             </h2>
             <p className="mt-4 text-base TEXTCOLOR">

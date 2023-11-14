@@ -45,9 +45,7 @@ a {
   .TEXTCOLOR {
     @apply text-slate-400;
   }
-  .MAINCOLOR {
-    @apply text-cyan-300;
-  }
+
 }
 
 .TA {

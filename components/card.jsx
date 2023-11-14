@@ -35,7 +35,7 @@ const card = () => {
   return (
     <div>
       <section className="py-20 ">
-        <h2 className="mb-12 text-center font-sans text-5xl font-bold text-white">
+        <h2 className="mb-12 text-center font-sans text-5xl font-bold text-primary-dark">
           Let's Discover Categories
         </h2>
         <div className="mx-auto grid max-w-screen-lg grid-cols-1 gap-5 p-5 sm:grid-cols-2 md:grid-cols-3 lg:gap-10 overflow-y-hidden">

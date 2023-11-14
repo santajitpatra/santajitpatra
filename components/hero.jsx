@@ -10,7 +10,7 @@ const hero = () => {
           <div className="mb-10 lg:mb-0 lg:max-w-lg lg:pr-5">
             <div className="mb-6 max-w-xl">
               <div>
-                <p className="bg-teal-accent-400 mb-2 inline-block rounded-full px-3 text-xs font-semibold uppercase tracking-wider text-cyan-300">
+                <p className="bg-teal-accent-400 mb-2 inline-block rounded-full px-3 text-xs font-semibold uppercase tracking-wider text-primary-dark">
                   New and improved
                 </p>
               </div>
@@ -19,7 +19,7 @@ const hero = () => {
                 <span className="my-1 inline-block rounded bg-white px-2 text-violet-600">
                   Work
                 </span>
-                <span className="text-cyan-300">Place</span>
+                <span className="text-primary-dark">Place</span>
               </h2>
               <p className="text-base TEXTCOLOR">
                 "Elevate your online presence with my expert web development

@@ -14,7 +14,7 @@ const footer = () => {
               backdropFilter: "blur(30px)",
             }}
           >
-            <h1 className="text-5xl md:text-6xl xl:text-7xl font-bold tracking-tight text-white">
+            <h1 className="text-5xl md:text-6xl xl:text-7xl font-bold tracking-tight text-primary-text">
               Get In Tuch With Us
             </h1>
           </div>

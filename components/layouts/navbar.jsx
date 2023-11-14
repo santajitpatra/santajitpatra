@@ -16,7 +16,7 @@ const navbar = () => {
           href="/"
           className="flex cursor-pointer items-center whitespace-nowrap text-2xl font-black"
         >
-          <span className="mr-2 text-4xl text-cyan-500">
+          <span className="mr-2 text-4xl text-primary-dark">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="icon icon-tabler icon-tabler-brand-react-native"
@@ -40,7 +40,7 @@ const navbar = () => {
             </svg>
           </span>
           <span className="text-3xl font-bold">
-            Santajit<span className="text-cyan-300">Patra</span>
+            Santajit<span className="text-primary-dark">Patra</span>
           </span>
         </Link>
         <input type="checkbox" className="peer hidden" id="navbar-open" />
