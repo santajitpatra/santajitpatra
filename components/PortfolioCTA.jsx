@@ -8,7 +8,7 @@ const PortfolioCTA = () => {
             <h2 className="text-3xl font-medium leading-tight sm:text-4xl lg:text-5xl">
               Let&#39;s connect and talk
             </h2>
-            <p className="mt-4 text-lg font-extralight TEXTCOLOR">
+            <p className="mt-4 text-lg text-primary-text-light">
               Interested in learning more about my services or discussing your
               project needs? Don&#39;t hesitate to contact me today. I&#39;m
               always available to answer any questions you may have and provide

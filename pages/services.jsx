@@ -16,7 +16,7 @@ const services = () => {
       </Head>
       {/* <!-- ==================== Head  ====================  -->  */}
 
-      <section className="flex min-h-screen w-screen flex-col BG">
+      <section className="flex min-h-screen w-screen flex-col bg-primary text-primary-text">
         <Navbar />
         <Header
           title="Services"

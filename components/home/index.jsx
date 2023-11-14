@@ -12,7 +12,7 @@ import { Navbar, Footer } from "../layouts";
 const index = () => {
   return (
     <div>
-      <div className="flex min-h-screen w-screen flex-col BG">
+      <div className="flex min-h-screen w-screen flex-col bg-primary text-primary-text">
         <Navbar />
         <Hero />
         <Card />

@@ -5,7 +5,7 @@ import NotFound from "../assets/images/404.png";
 const Error = () => {
   return (
     <>
-      <div className="relative overflow-hidden BG">
+      <div className="relative overflow-hidden bg-primary text-primary-text">
         {/* <img src="/yt.png" className="absolute object-cover w-full h-full" /> */}
         <div className="absolute inset-0 bg-black opacity-25"></div>
         <div className="container relative z-10 flex items-center px-6 py-32 mx-auto md:px-12 xl:py-40">

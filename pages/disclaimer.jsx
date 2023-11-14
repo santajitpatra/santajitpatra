@@ -22,7 +22,7 @@ const disclaimer = () => {
           }
         `}
       </style>
-      <div className="BG">
+      <div className="bg-primary text-primary-text">
         <Navbar />
       </div>
       <div className="p-16 ">

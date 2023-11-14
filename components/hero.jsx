@@ -38,7 +38,7 @@ const hero = () => {
               </Link>
             </div>
           </div>
-          <div className="relative shadow-xl shadow-violet-700 rounded-2xl lg:w-1/2">
+          <div className="relative shadow-3xl shadow-cyan-700 rounded-2xl lg:w-1/2">
             <Image
               className="h-56 w-full rounded-2xl object-cover shadow-lg sm:h-96"
               src={seox}

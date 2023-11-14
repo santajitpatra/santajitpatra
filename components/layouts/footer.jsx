@@ -7,7 +7,7 @@ const footer = () => {
       <div className="container mx-auto px-6 mb-12 md:px-12 xl:px-32">
         <div className="text-center">
           <div
-            className="block rounded-lg px-6 py-12 md:py-12 md:px-12"
+            className="block rounded-3xl px-6 py-12 md:py-12 md:px-12"
             style={{
               marginBottom: "-130px",
               background: "hsla(261, 100%, 64%, 0.3)",
@@ -21,7 +21,7 @@ const footer = () => {
         </div>
       </div>
 
-      <div className="pt-20 bg-[#0f2146] ">
+      <div className="pt-20 bg-[#0f2146] text-primary-text">
         <FooterMenu />
         <FooterLink />
       </div>

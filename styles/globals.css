@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+  @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 
 @tailwind base;
 @tailwind components;
@@ -8,7 +9,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Quicksand", sans-serif;
+font-family: 'Quicksand','Roboto', sans-serif;
 }
 
 body {
@@ -37,12 +38,10 @@ a {
 
 @layer components {
   .btn-primary {
-    @apply mb-3 inline-flex h-12 w-full items-center justify-center px-6 font-medium tracking-wide shadow-md transition duration-200 focus:outline-none md:mr-4 md:mb-0 md:w-auto text-white hover:text-cyan-500 bg-gradient-to-r  from-violet-600 to-purple-500 hover:from-gray-50 hover:to-gray-50 rounded-full;
+    @apply mb-3 inline-flex h-12 items-center justify-center px-6 font-medium tracking-wide shadow-md transition duration-200 focus:outline-none md:mr-4 md:mb-0 md:w-auto text-white hover:text-cyan-500 bg-gradient-to-r  from-violet-600 to-purple-500 hover:from-gray-50 hover:to-gray-50 rounded-full;
   }
 
-  .BG {
-    @apply text-white bg-[#0a162f];
-  }
+
   .TEXTCOLOR {
     @apply text-slate-400;
   }

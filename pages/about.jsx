@@ -14,7 +14,7 @@ const about = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className="flex min-h-screen w-screen flex-col text-white  BG">
+      <div className="flex min-h-screen w-screen flex-col text-primary-text bg-primary">
         <Navbar />
         <Header
           title="About"

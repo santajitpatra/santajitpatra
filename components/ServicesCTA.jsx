@@ -5,10 +5,10 @@ const ServicesCTA = () => {
     <div className="relative mx-auto w-full pb-32 pt-8 text-black">
       <div className="absolute inset-0 bottom-56 bg-slate-200" />
       <div className="relative pt-20 mx-auto w-full max-w-screen-xl px-2 text-left sm:px-10">
-        <div className="rounded-xl bg-slate-50 shadow-lg shadow-violet-500 lg:flex">
+        <div className="rounded-xl bg-slate-50 shadow-lg shadow-cyan-500 lg:flex">
           <div className="flex flex-col p-4 pb-6 sm:p-10 sm:pt-14 lg:w-2/5">
             <div className="flex-auto">
-              <h2 className="text-2xl font-black text-slate-800">
+              <h2 className="text-2xl font-black text-primary-dark">
                 Keep Track of Your Projects from Start to Finish
               </h2>
               <p className="pt-4 TEXTCOLOR">
