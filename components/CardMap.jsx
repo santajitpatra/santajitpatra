@@ -3,7 +3,7 @@ import Image from "next/image";
 
 function CardMap({ title, description, type, image, button }) {
   return (
-    <article className="bg-slate-50 h-90 col-span-1 m-auto min-h-full cursor-pointer overflow-hidden rounded-2xl pb-2 shadow-lg transition-transform duration-200 TA">
+    <article className="bg-slate-50 h-90 col-span-1 m-auto min-h-full cursor-pointer overflow-hidden rounded-3xl pb-2 shadow-lg transition-transform duration-200 TA">
       <Image
         className="max-h-40 w-full object-cover"
         alt="featured image"

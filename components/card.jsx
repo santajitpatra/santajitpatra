@@ -38,7 +38,7 @@ const card = () => {
         <h2 className="mb-12 text-center font-sans text-5xl font-bold text-primary-dark">
           Let's Discover Categories
         </h2>
-        <div className="mx-auto grid max-w-screen-lg grid-cols-1 gap-5 p-5 sm:grid-cols-2 md:grid-cols-3 lg:gap-10 overflow-y-hidden">
+        <div className="mx-auto grid max-w-screen-lg grid-cols-1 gap-5 p-5 sm:grid-cols-2 md:grid-cols-3 lg:gap-14 overflow-y-hidden">
           {cardData.map(({ title, description, type, image, button }) => (
             <CardMap
               key={title}

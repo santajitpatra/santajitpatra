@@ -2,6 +2,7 @@ import Home from "../components/home";
 import Head from "next/head";
 
 const index = () => {
+
   return (
     <div>
       <Head>
@@ -10,6 +11,7 @@ const index = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+
       <Home />
     </div>
   );

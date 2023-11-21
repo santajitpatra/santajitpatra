@@ -1,4 +1,4 @@
-import React from "react";
+import MarqueeSection from "../MarqueeSection";
 import {
   Hero,
   Card,
@@ -16,6 +16,8 @@ const index = () => {
         <Navbar />
         <Hero />
         <Card />
+        <MarqueeSection />
+
         <CTA />
         <h2 className="mt-12 text-center font-sans text-5xl font-bold text-primary-dark">
           My Services

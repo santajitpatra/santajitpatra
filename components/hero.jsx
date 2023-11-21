@@ -38,9 +38,9 @@ const hero = () => {
               </Link>
             </div>
           </div>
-          <div className="relative shadow-3xl shadow-cyan-700 rounded-2xl lg:w-1/2">
+          <div className="relative shadow-3xl shadow-cyan-700 rounded-3xl lg:w-1/2">
             <Image
-              className="h-56 w-full rounded-2xl object-cover shadow-lg sm:h-96"
+              className="h-56 w-full rounded-3xl object-cover shadow-lg sm:h-96"
               src={seox}
               alt="#"
               width={500}
@@ -49,7 +49,7 @@ const hero = () => {
             <Link
               href="https://www.youtube.com/channel/UCvUNvI17WbxTd0MFu5uleHw"
               aria-label="Play Video"
-              className=" group absolute inset-0 flex h-full w-full items-center justify-center bg-gray-900 bg-opacity-30 rounded-2xl transition-colors duration-300 hover:bg-opacity-10"
+              className=" group absolute inset-0 flex h-full w-full items-center justify-center bg-gray-900 bg-opacity-30 rounded-3xl transition-colors duration-300 hover:bg-opacity-10"
             >
               <div className="flex h-16 w-16 transform items-center justify-center rounded-full bg-gray-100 shadow-2xl transition duration-300 group-hover:scale-110">
                 <svg
