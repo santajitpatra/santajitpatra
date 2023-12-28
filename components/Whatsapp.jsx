@@ -17,7 +17,7 @@ const Whatsapp = () => {
   }, []);
 
   return (
-    <div className={ show && "m-auto flex w-16 h-16 fixed bottom-7 right-7 bg-green-500 rounded-full shadow-lg overflow-hidden transition-transform duration-200 TA whatsapp_transform"}>
+    <div className={ show && "m-auto flex w-16 h-16 z-10 fixed bottom-7 right-7 bg-green-500 rounded-full shadow-lg overflow-hidden transition-transform duration-200 TA whatsapp_transform"}>
         <a href="https://wa.me/+918509625715" className=" m-auto " target="_blank"
         rel="noreferrer" >
         <svg
