@@ -1,0 +1,11 @@
+{
+  "name": "santajitpatra",
+  "version": "1.0.0",
+  "description": "<h1 align=\"center\">Hi 👋, I'm Santajit Patra</h1> <h3 align=\"left\">A passionate developer from India. love developing new things and learning new skills. I want to make things that make a difference !!</h3>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
