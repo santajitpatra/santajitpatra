@@ -1,4 +1,4 @@
-<a href="https://biodrop.io/eddiejaoude" target="_blank"><img src="./SANTAJITPATRA_0.0.2.png" /></a>
+<a href="https://santajitpatra.vercel.app/about" target="_blank"><img src="./SANTAJITPATRA_0.0.2.png" /></a>
 
 
 <p align="center">love developing new things and learning new skills.</p>
